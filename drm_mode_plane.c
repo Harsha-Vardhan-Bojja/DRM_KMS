@@ -1,6 +1,3 @@
-// Compile with:
-// gcc -o drm_atomic_example drm_atomic_example.c -ldrm
-
 #include <errno.h>
 #include <fcntl.h>
 #include <stdbool.h>
