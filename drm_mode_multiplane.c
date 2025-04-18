@@ -91,12 +91,13 @@ static int fetch_connector(int drm_fd, drmModeRes *resources, drmModeConnector *
 }
 
 // Pick a CRTC from the resource list (can be improved to match connector's encoder)
-static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *connector, drmModeCrtc **crtc_out) {
+static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *connector, drmModeCrtc **crtc_out, int *index) {
     for (int i = 0; i < resources->count_crtcs; i++) {
         drmModeCrtc *crtc = drmModeGetCrtc(drm_fd, resources->crtcs[i]);
         if (crtc) {
             *crtc_out = crtc;
             printf("[CRTC]         : ID = %d\n", crtc->crtc_id);
+            *index = i;
             return 0;
         }
     }
@@ -104,7 +105,7 @@ static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *conne
 }
 
 // Find the primary plane associated with the selected CRTC
-static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **primary_plane, drmModePlane **overlay_plane) {
+static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **primary_plane, drmModePlane **overlay_plane, int *crtc_index) {
     drmModePlaneRes *planes = drmModeGetPlaneResources(drm_fd);
     if (!planes)
         return -1;
@@ -114,17 +115,19 @@ static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **primary_pla
         if (!plane)
             continue;
 
-            int type = get_property_value(drm_fd, plane->plane_id, "type");
-            if (type == DRM_PLANE_TYPE_PRIMARY && plane->crtc_id == crtc->crtc_id) {
-                printf("[PRIMARY_PLANE]: ID = %d and TYPE = PRIMARY\n", plane->plane_id);
-                *primary_plane = plane;
-                continue;
-            }
-            if (type == DRM_PLANE_TYPE_OVERLAY) {
-                printf("[OVERLAY_PLANE]: ID = %d and TYPE = OVERLAY\n", plane->plane_id);
-                *overlay_plane = plane;
-                continue;
-            }
+        int type = get_property_value(drm_fd, plane->plane_id, "type");
+        if(plane->possible_crtcs & (1 << *crtc_index)) {
+        if (type == DRM_PLANE_TYPE_PRIMARY) {
+            printf("[PRIMARY_PLANE]: ID = %d and TYPE = PRIMARY\n", plane->plane_id);
+            *primary_plane = plane;
+            continue;
+        }
+        if (type == DRM_PLANE_TYPE_OVERLAY) {
+            printf("[OVERLAY_PLANE]: ID = %d and TYPE = OVERLAY\n", plane->plane_id);
+            *overlay_plane = plane;
+            continue;
+        }
+        }
              drmModeFreePlane(plane); 
         }
     drmModeFreePlaneResources(planes);  
@@ -260,6 +263,7 @@ int main() {
     drmModeCrtc *crtc = NULL;
     drmModePlane *plane = NULL;
     drmModePlane *plane_1 = NULL;
+    int crtc_index = 0;
     int fb_id = 0;
     int fb_id_1 = 0;
     int width = 1920;
@@ -268,8 +272,8 @@ int main() {
     
     // Full setup and commit
     if (fetch_connector(drm_fd, resources, &connector) == 0 &&
-        fetch_crtc(drm_fd, resources, connector, &crtc) == 0 &&
-        fetch_plane(drm_fd, crtc, &plane, &plane_1) == 0 &&
+        fetch_crtc(drm_fd, resources, connector, &crtc, &crtc_index) == 0 &&
+        fetch_plane(drm_fd, crtc, &plane, &plane_1,&crtc_index) == 0 &&
         create_fb(drm_fd, &fb_id, width, height, PRIMARY) == 0 &&
         create_fb(drm_fd, &fb_id_1, width/4,height/4, OVERLAY) == 0 ) {
 
