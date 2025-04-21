@@ -87,12 +87,13 @@ static int fetch_connector(int drm_fd, drmModeRes *resources, drmModeConnector *
 }
 
 // Pick a CRTC from the resource list (can be improved to match connector's encoder)
-static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *connector, drmModeCrtc **crtc_out) {
+static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *connector, drmModeCrtc **crtc_out, int *crtc_indx) {
     for (int i = 0; i < resources->count_crtcs; i++) {
         drmModeCrtc *crtc = drmModeGetCrtc(drm_fd, resources->crtcs[i]);
         if (crtc) {
             *crtc_out = crtc;
             printf("[CRTC]     : ID = %d\n", crtc->crtc_id);
+            *crtc_indx = i;
             return 0;
         }
     }
@@ -100,7 +101,7 @@ static int fetch_crtc(int drm_fd, drmModeRes *resources, drmModeConnector *conne
 }
 
 // Find the primary plane associated with the selected CRTC
-static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **plane_out) {
+static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **plane_out, int crtc_indx) {
     drmModePlaneRes *planes = drmModeGetPlaneResources(drm_fd);
     if (!planes)
         return -1;
@@ -110,7 +111,7 @@ static int fetch_plane(int drm_fd, drmModeCrtc *crtc, drmModePlane **plane_out) 
         if (!plane)
             continue;
 
-        if (plane->crtc_id == crtc->crtc_id) {
+        if (plane->possible_crtcs & (1 << crtc_indx)) {
             int type = get_property_value(drm_fd, plane->plane_id, "type");
             if (type == DRM_PLANE_TYPE_PRIMARY) {
                 printf("[PLANE]    : ID = %d and TYPE = PRIMARY\n", plane->plane_id);
@@ -233,7 +234,6 @@ int commit_fb(int drm_fd, drmModeConnector *connector, drmModeCrtc *crtc, drmMod
     return ret;
 }
 
-// Entry point
 int main() {
     // Open DRM device
     int drm_fd = open("/dev/dri/card1", O_RDWR | O_NONBLOCK);
@@ -248,51 +248,113 @@ int main() {
 
     // Get DRM resources
     drmModeRes *resources = drmModeGetResources(drm_fd);
+    if (!resources) {
+        perror("Failed to get DRM resources");
+        close(drm_fd);
+        return -1;
+    }
+
     drmModeConnector *connector = NULL;
     drmModeCrtc *crtc = NULL;
     drmModePlane *plane = NULL;
-    int fb_id = 0;
-    uint8_t *dumb_buffer_data;
+    uint32_t fb_id = 0;
+    uint8_t *dumb_buffer_data = NULL;
+    int width = 0;
+    int height = 0;
+    int crtc_indx;
     
-    if(EGL_init(1920,1080) < 0) {
-        printf("Failed to intialize the EGL\n");
-        return -1;
+    if (fetch_connector(drm_fd, resources, &connector) != 0) {
+        fprintf(stderr, "Failed to find connector\n");
+        goto cleanup;
     }
-    // Full setup and commit
-    if (fetch_connector(drm_fd, resources, &connector) == 0 &&
-        fetch_crtc(drm_fd, resources, connector, &crtc) == 0 &&
-        fetch_plane(drm_fd, crtc, &plane) == 0 &&
-        create_fb(drm_fd, crtc, &fb_id, &dumb_buffer_data) == 0) {
-        int i = 0;
-        clock_t start_time = clock();  // Total time at the start
-        while(i < 400) {
-            clock_t frame_start = clock();  // Time at the start of each frame
-            
-            render_the_cube(1920, 1080, dumb_buffer_data);
-            
-            
-            clock_t frame_end = clock();  // Time at the end of each frame
-            double frame_time = (double)(frame_end - frame_start) / CLOCKS_PER_SEC;  // Time in seconds
-            double fps = 1.0 / frame_time;  // Calculate FPS
-            
-            printf("Frame %d: Time = %.3f ms, FPS = %.2f\n", i + 1, frame_time * 1000.0, fps);
-            commit_fb(drm_fd, connector, crtc, plane, fb_id);
-            i++;
+
+    if (fetch_crtc(drm_fd, resources, connector, &crtc, &crtc_indx) != 0) {
+        fprintf(stderr, "Failed to find CRTC\n");
+        goto cleanup;
+    }
+
+    if (fetch_plane(drm_fd, crtc, &plane, crtc_indx) != 0) {
+        fprintf(stderr, "Failed to find plane\n");
+        goto cleanup;
+    }
+
+    
+    width = connector->modes[0].hdisplay;
+    height = connector->modes[0].vdisplay;
+   
+    if (create_fb(drm_fd, crtc, &fb_id, &dumb_buffer_data) != 0) {
+        fprintf(stderr, "Failed to create framebuffer\n");
+        goto cleanup;
+    }
+
+    // Initialize EGL and OpenGL
+    if (EGL_init(width, height) < 0) {
+        fprintf(stderr, "Failed to initialize EGL\n");
+        goto cleanup;
+    }
+
+    // Set up textures and framebuffers once
+    if (setup_textures_framebuffers(width, height) < 0) {
+        fprintf(stderr, "Failed to setup textures and framebuffers\n");
+        goto cleanup;
+    }
+
+    // Perform initial atomic commit to set mode 
+    if (commit_fb(drm_fd, connector, crtc, plane, fb_id) < 0) {
+        fprintf(stderr, "Initial atomic commit failed\n");
+        goto cleanup;
+    }
+
+    // Main render loop
+    clock_t start_time = clock();
+    int frame_count = 1000;
+    
+    for (int i = 0; i < frame_count; i++) {
+        clock_t frame_start = clock();
+        
+        // Render the cube
+        render_the_cube(width, height, dumb_buffer_data);
+        
+        // Perform atomic commit
+        if (commit_fb(drm_fd, connector, crtc, plane, fb_id) < 0) {
+            fprintf(stderr, "Frame %d: Atomic commit failed\n", i);
+            break;
         }
-
-        clock_t end_time = clock();  // Total time at the end
-        double total_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;  // Total time in seconds
-        printf("Total time for rendering 400 frames: %.2f seconds\n", total_time);
-        drmModeFreePlane(plane);
+        
+        // Calculate frame time
+        clock_t frame_end = clock();
+        double frame_time = (double)(frame_end - frame_start) / CLOCKS_PER_SEC;
+        double fps = 1.0 / frame_time;
+        
+        printf("Frame %d: Time = %.3f ms, FPS = %.2f\n", i + 1, frame_time * 1000.0, fps);
     }
 
-    // Keep image on screen for 5 seconds
-    //sleep(5);
+    // Calculate total time
+    clock_t end_time = clock();
+    double total_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
+    printf("Total time for rendering %d frames: %.2f seconds\n", frame_count, total_time);
+    printf("Average FPS: %.2f\n", frame_count / total_time);
 
-    // Cleanup
+cleanup:
+    // Cleanup resources
+    cleanup_gl_setup();
+    
+    drmModeFreePlane(plane);
     drmModeFreeCrtc(crtc);
     drmModeFreeConnector(connector);
     drmModeFreeResources(resources);
+
+    if (fb_id) {
+        struct drm_mode_destroy_dumb destroy = {0};
+        if (dumb_buffer_data) {
+            munmap(dumb_buffer_data, width * height * 4);
+        }
+        if (drmIoctl(drm_fd, DRM_IOCTL_MODE_DESTROY_DUMB, &destroy) < 0) {
+            perror("Failed to destroy dumb buffer");
+        }
+        drmModeRmFB(drm_fd, fb_id);
+    }
+    
     close(drm_fd);
     return 0;
 }

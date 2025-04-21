@@ -1,0 +1,2011 @@
+[CONNECTOR]: ID = 87 and STATUS = CONNECTED
+[MODE]     : 1920x1080 @60Hz
+[CRTC]     : ID = 73
+[PLANE]    : ID = 58 and TYPE = PRIMARY
+width = 1920, heght =1080 
+[FB]       : ID = 108
+Using surfaceless EGL
+EGL initialized successfully
+[ATOMIC]   : Commit successful
+[ATOMIC]   : Commit successful
+Frame 1: Time = 14.397 ms, FPS = 69.46
+[ATOMIC]   : Commit successful
+Frame 2: Time = 3.127 ms, FPS = 319.80
+[ATOMIC]   : Commit successful
+Frame 3: Time = 3.347 ms, FPS = 298.78
+[ATOMIC]   : Commit successful
+Frame 4: Time = 3.308 ms, FPS = 302.30
+[ATOMIC]   : Commit successful
+Frame 5: Time = 3.243 ms, FPS = 308.36
+[ATOMIC]   : Commit successful
+Frame 6: Time = 3.437 ms, FPS = 290.95
+[ATOMIC]   : Commit successful
+Frame 7: Time = 3.477 ms, FPS = 287.60
+[ATOMIC]   : Commit successful
+Frame 8: Time = 3.747 ms, FPS = 266.88
+[ATOMIC]   : Commit successful
+Frame 9: Time = 3.272 ms, FPS = 305.62
+[ATOMIC]   : Commit successful
+Frame 10: Time = 4.231 ms, FPS = 236.35
+[ATOMIC]   : Commit successful
+Frame 11: Time = 5.942 ms, FPS = 168.29
+[ATOMIC]   : Commit successful
+Frame 12: Time = 3.508 ms, FPS = 285.06
+[ATOMIC]   : Commit successful
+Frame 13: Time = 3.666 ms, FPS = 272.78
+[ATOMIC]   : Commit successful
+Frame 14: Time = 3.983 ms, FPS = 251.07
+[ATOMIC]   : Commit successful
+Frame 15: Time = 3.810 ms, FPS = 262.47
+[ATOMIC]   : Commit successful
+Frame 16: Time = 3.820 ms, FPS = 261.78
+[ATOMIC]   : Commit successful
+Frame 17: Time = 3.816 ms, FPS = 262.05
+[ATOMIC]   : Commit successful
+Frame 18: Time = 3.920 ms, FPS = 255.10
+[ATOMIC]   : Commit successful
+Frame 19: Time = 3.863 ms, FPS = 258.87
+[ATOMIC]   : Commit successful
+Frame 20: Time = 3.928 ms, FPS = 254.58
+[ATOMIC]   : Commit successful
+Frame 21: Time = 3.921 ms, FPS = 255.04
+[ATOMIC]   : Commit successful
+Frame 22: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 23: Time = 6.306 ms, FPS = 158.58
+[ATOMIC]   : Commit successful
+Frame 24: Time = 3.774 ms, FPS = 264.97
+[ATOMIC]   : Commit successful
+Frame 25: Time = 3.926 ms, FPS = 254.71
+[ATOMIC]   : Commit successful
+Frame 26: Time = 3.937 ms, FPS = 254.00
+[ATOMIC]   : Commit successful
+Frame 27: Time = 3.767 ms, FPS = 265.46
+[ATOMIC]   : Commit successful
+Frame 28: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 29: Time = 3.906 ms, FPS = 256.02
+[ATOMIC]   : Commit successful
+Frame 30: Time = 4.040 ms, FPS = 247.52
+[ATOMIC]   : Commit successful
+Frame 31: Time = 3.970 ms, FPS = 251.89
+[ATOMIC]   : Commit successful
+Frame 32: Time = 3.889 ms, FPS = 257.14
+[ATOMIC]   : Commit successful
+Frame 33: Time = 3.919 ms, FPS = 255.17
+[ATOMIC]   : Commit successful
+Frame 34: Time = 4.199 ms, FPS = 238.15
+[ATOMIC]   : Commit successful
+Frame 35: Time = 4.562 ms, FPS = 219.20
+[ATOMIC]   : Commit successful
+Frame 36: Time = 3.308 ms, FPS = 302.30
+[ATOMIC]   : Commit successful
+Frame 37: Time = 3.835 ms, FPS = 260.76
+[ATOMIC]   : Commit successful
+Frame 38: Time = 3.887 ms, FPS = 257.27
+[ATOMIC]   : Commit successful
+Frame 39: Time = 4.036 ms, FPS = 247.77
+[ATOMIC]   : Commit successful
+Frame 40: Time = 3.795 ms, FPS = 263.50
+[ATOMIC]   : Commit successful
+Frame 41: Time = 3.882 ms, FPS = 257.60
+[ATOMIC]   : Commit successful
+Frame 42: Time = 3.892 ms, FPS = 256.94
+[ATOMIC]   : Commit successful
+Frame 43: Time = 3.771 ms, FPS = 265.18
+[ATOMIC]   : Commit successful
+Frame 44: Time = 3.897 ms, FPS = 256.61
+[ATOMIC]   : Commit successful
+Frame 45: Time = 3.865 ms, FPS = 258.73
+[ATOMIC]   : Commit successful
+Frame 46: Time = 3.809 ms, FPS = 262.54
+[ATOMIC]   : Commit successful
+Frame 47: Time = 3.819 ms, FPS = 261.85
+[ATOMIC]   : Commit successful
+Frame 48: Time = 3.900 ms, FPS = 256.41
+[ATOMIC]   : Commit successful
+Frame 49: Time = 3.876 ms, FPS = 258.00
+[ATOMIC]   : Commit successful
+Frame 50: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 51: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 52: Time = 3.822 ms, FPS = 261.64
+[ATOMIC]   : Commit successful
+Frame 53: Time = 3.702 ms, FPS = 270.12
+[ATOMIC]   : Commit successful
+Frame 54: Time = 3.987 ms, FPS = 250.82
+[ATOMIC]   : Commit successful
+Frame 55: Time = 4.084 ms, FPS = 244.86
+[ATOMIC]   : Commit successful
+Frame 56: Time = 3.838 ms, FPS = 260.55
+[ATOMIC]   : Commit successful
+Frame 57: Time = 3.702 ms, FPS = 270.12
+[ATOMIC]   : Commit successful
+Frame 58: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 59: Time = 3.799 ms, FPS = 263.23
+[ATOMIC]   : Commit successful
+Frame 60: Time = 4.326 ms, FPS = 231.16
+[ATOMIC]   : Commit successful
+Frame 61: Time = 3.748 ms, FPS = 266.81
+[ATOMIC]   : Commit successful
+Frame 62: Time = 3.818 ms, FPS = 261.92
+[ATOMIC]   : Commit successful
+Frame 63: Time = 3.760 ms, FPS = 265.96
+[ATOMIC]   : Commit successful
+Frame 64: Time = 3.462 ms, FPS = 288.85
+[ATOMIC]   : Commit successful
+Frame 65: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 66: Time = 3.903 ms, FPS = 256.21
+[ATOMIC]   : Commit successful
+Frame 67: Time = 3.832 ms, FPS = 260.96
+[ATOMIC]   : Commit successful
+Frame 68: Time = 3.794 ms, FPS = 263.57
+[ATOMIC]   : Commit successful
+Frame 69: Time = 3.884 ms, FPS = 257.47
+[ATOMIC]   : Commit successful
+Frame 70: Time = 3.817 ms, FPS = 261.99
+[ATOMIC]   : Commit successful
+Frame 71: Time = 3.788 ms, FPS = 263.99
+[ATOMIC]   : Commit successful
+Frame 72: Time = 3.809 ms, FPS = 262.54
+[ATOMIC]   : Commit successful
+Frame 73: Time = 3.853 ms, FPS = 259.54
+[ATOMIC]   : Commit successful
+Frame 74: Time = 3.929 ms, FPS = 254.52
+[ATOMIC]   : Commit successful
+Frame 75: Time = 4.025 ms, FPS = 248.45
+[ATOMIC]   : Commit successful
+Frame 76: Time = 3.974 ms, FPS = 251.64
+[ATOMIC]   : Commit successful
+Frame 77: Time = 4.329 ms, FPS = 231.00
+[ATOMIC]   : Commit successful
+Frame 78: Time = 4.437 ms, FPS = 225.38
+[ATOMIC]   : Commit successful
+Frame 79: Time = 4.745 ms, FPS = 210.75
+[ATOMIC]   : Commit successful
+Frame 80: Time = 4.593 ms, FPS = 217.72
+[ATOMIC]   : Commit successful
+Frame 81: Time = 4.651 ms, FPS = 215.01
+[ATOMIC]   : Commit successful
+Frame 82: Time = 4.296 ms, FPS = 232.77
+[ATOMIC]   : Commit successful
+Frame 83: Time = 7.443 ms, FPS = 134.35
+[ATOMIC]   : Commit successful
+Frame 84: Time = 4.173 ms, FPS = 239.64
+[ATOMIC]   : Commit successful
+Frame 85: Time = 3.944 ms, FPS = 253.55
+[ATOMIC]   : Commit successful
+Frame 86: Time = 3.993 ms, FPS = 250.44
+[ATOMIC]   : Commit successful
+Frame 87: Time = 3.960 ms, FPS = 252.53
+[ATOMIC]   : Commit successful
+Frame 88: Time = 3.938 ms, FPS = 253.94
+[ATOMIC]   : Commit successful
+Frame 89: Time = 3.911 ms, FPS = 255.69
+[ATOMIC]   : Commit successful
+Frame 90: Time = 4.031 ms, FPS = 248.08
+[ATOMIC]   : Commit successful
+Frame 91: Time = 3.990 ms, FPS = 250.63
+[ATOMIC]   : Commit successful
+Frame 92: Time = 3.843 ms, FPS = 260.21
+[ATOMIC]   : Commit successful
+Frame 93: Time = 3.979 ms, FPS = 251.32
+[ATOMIC]   : Commit successful
+Frame 94: Time = 4.543 ms, FPS = 220.12
+[ATOMIC]   : Commit successful
+Frame 95: Time = 4.640 ms, FPS = 215.52
+[ATOMIC]   : Commit successful
+Frame 96: Time = 3.958 ms, FPS = 252.65
+[ATOMIC]   : Commit successful
+Frame 97: Time = 3.954 ms, FPS = 252.91
+[ATOMIC]   : Commit successful
+Frame 98: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 99: Time = 4.074 ms, FPS = 245.46
+[ATOMIC]   : Commit successful
+Frame 100: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 101: Time = 3.918 ms, FPS = 255.23
+[ATOMIC]   : Commit successful
+Frame 102: Time = 3.953 ms, FPS = 252.97
+[ATOMIC]   : Commit successful
+Frame 103: Time = 3.962 ms, FPS = 252.40
+[ATOMIC]   : Commit successful
+Frame 104: Time = 3.893 ms, FPS = 256.87
+[ATOMIC]   : Commit successful
+Frame 105: Time = 3.805 ms, FPS = 262.81
+[ATOMIC]   : Commit successful
+Frame 106: Time = 3.973 ms, FPS = 251.70
+[ATOMIC]   : Commit successful
+Frame 107: Time = 3.971 ms, FPS = 251.83
+[ATOMIC]   : Commit successful
+Frame 108: Time = 3.981 ms, FPS = 251.19
+[ATOMIC]   : Commit successful
+Frame 109: Time = 3.906 ms, FPS = 256.02
+[ATOMIC]   : Commit successful
+Frame 110: Time = 3.986 ms, FPS = 250.88
+[ATOMIC]   : Commit successful
+Frame 111: Time = 3.910 ms, FPS = 255.75
+[ATOMIC]   : Commit successful
+Frame 112: Time = 3.994 ms, FPS = 250.38
+[ATOMIC]   : Commit successful
+Frame 113: Time = 3.948 ms, FPS = 253.29
+[ATOMIC]   : Commit successful
+Frame 114: Time = 3.966 ms, FPS = 252.14
+[ATOMIC]   : Commit successful
+Frame 115: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 116: Time = 3.970 ms, FPS = 251.89
+[ATOMIC]   : Commit successful
+Frame 117: Time = 4.197 ms, FPS = 238.27
+[ATOMIC]   : Commit successful
+Frame 118: Time = 3.971 ms, FPS = 251.83
+[ATOMIC]   : Commit successful
+Frame 119: Time = 4.007 ms, FPS = 249.56
+[ATOMIC]   : Commit successful
+Frame 120: Time = 3.957 ms, FPS = 252.72
+[ATOMIC]   : Commit successful
+Frame 121: Time = 3.907 ms, FPS = 255.95
+[ATOMIC]   : Commit successful
+Frame 122: Time = 3.943 ms, FPS = 253.61
+[ATOMIC]   : Commit successful
+Frame 123: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 124: Time = 3.918 ms, FPS = 255.23
+[ATOMIC]   : Commit successful
+Frame 125: Time = 3.964 ms, FPS = 252.27
+[ATOMIC]   : Commit successful
+Frame 126: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 127: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 128: Time = 3.818 ms, FPS = 261.92
+[ATOMIC]   : Commit successful
+Frame 129: Time = 3.781 ms, FPS = 264.48
+[ATOMIC]   : Commit successful
+Frame 130: Time = 3.778 ms, FPS = 264.69
+[ATOMIC]   : Commit successful
+Frame 131: Time = 3.724 ms, FPS = 268.53
+[ATOMIC]   : Commit successful
+Frame 132: Time = 3.970 ms, FPS = 251.89
+[ATOMIC]   : Commit successful
+Frame 133: Time = 4.572 ms, FPS = 218.72
+[ATOMIC]   : Commit successful
+Frame 134: Time = 4.420 ms, FPS = 226.24
+[ATOMIC]   : Commit successful
+Frame 135: Time = 4.575 ms, FPS = 218.58
+[ATOMIC]   : Commit successful
+Frame 136: Time = 3.777 ms, FPS = 264.76
+[ATOMIC]   : Commit successful
+Frame 137: Time = 3.767 ms, FPS = 265.46
+[ATOMIC]   : Commit successful
+Frame 138: Time = 3.825 ms, FPS = 261.44
+[ATOMIC]   : Commit successful
+Frame 139: Time = 3.785 ms, FPS = 264.20
+[ATOMIC]   : Commit successful
+Frame 140: Time = 3.718 ms, FPS = 268.96
+[ATOMIC]   : Commit successful
+Frame 141: Time = 3.362 ms, FPS = 297.44
+[ATOMIC]   : Commit successful
+Frame 142: Time = 3.778 ms, FPS = 264.69
+[ATOMIC]   : Commit successful
+Frame 143: Time = 6.304 ms, FPS = 158.63
+[ATOMIC]   : Commit successful
+Frame 144: Time = 3.743 ms, FPS = 267.17
+[ATOMIC]   : Commit successful
+Frame 145: Time = 3.735 ms, FPS = 267.74
+[ATOMIC]   : Commit successful
+Frame 146: Time = 3.218 ms, FPS = 310.75
+[ATOMIC]   : Commit successful
+Frame 147: Time = 3.289 ms, FPS = 304.04
+[ATOMIC]   : Commit successful
+Frame 148: Time = 3.296 ms, FPS = 303.40
+[ATOMIC]   : Commit successful
+Frame 149: Time = 3.200 ms, FPS = 312.50
+[ATOMIC]   : Commit successful
+Frame 150: Time = 3.265 ms, FPS = 306.28
+[ATOMIC]   : Commit successful
+Frame 151: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 152: Time = 3.886 ms, FPS = 257.33
+[ATOMIC]   : Commit successful
+Frame 153: Time = 3.485 ms, FPS = 286.94
+[ATOMIC]   : Commit successful
+Frame 154: Time = 3.282 ms, FPS = 304.69
+[ATOMIC]   : Commit successful
+Frame 155: Time = 3.913 ms, FPS = 255.56
+[ATOMIC]   : Commit successful
+Frame 156: Time = 3.910 ms, FPS = 255.75
+[ATOMIC]   : Commit successful
+Frame 157: Time = 3.937 ms, FPS = 254.00
+[ATOMIC]   : Commit successful
+Frame 158: Time = 3.902 ms, FPS = 256.28
+[ATOMIC]   : Commit successful
+Frame 159: Time = 3.992 ms, FPS = 250.50
+[ATOMIC]   : Commit successful
+Frame 160: Time = 3.262 ms, FPS = 306.56
+[ATOMIC]   : Commit successful
+Frame 161: Time = 3.185 ms, FPS = 313.97
+[ATOMIC]   : Commit successful
+Frame 162: Time = 3.721 ms, FPS = 268.74
+[ATOMIC]   : Commit successful
+Frame 163: Time = 3.736 ms, FPS = 267.67
+[ATOMIC]   : Commit successful
+Frame 164: Time = 3.824 ms, FPS = 261.51
+[ATOMIC]   : Commit successful
+Frame 165: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 166: Time = 3.758 ms, FPS = 266.10
+[ATOMIC]   : Commit successful
+Frame 167: Time = 3.252 ms, FPS = 307.50
+[ATOMIC]   : Commit successful
+Frame 168: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 169: Time = 4.001 ms, FPS = 249.94
+[ATOMIC]   : Commit successful
+Frame 170: Time = 3.939 ms, FPS = 253.87
+[ATOMIC]   : Commit successful
+Frame 171: Time = 4.031 ms, FPS = 248.08
+[ATOMIC]   : Commit successful
+Frame 172: Time = 3.801 ms, FPS = 263.09
+[ATOMIC]   : Commit successful
+Frame 173: Time = 3.923 ms, FPS = 254.91
+[ATOMIC]   : Commit successful
+Frame 174: Time = 4.182 ms, FPS = 239.12
+[ATOMIC]   : Commit successful
+Frame 175: Time = 3.857 ms, FPS = 259.27
+[ATOMIC]   : Commit successful
+Frame 176: Time = 3.928 ms, FPS = 254.58
+[ATOMIC]   : Commit successful
+Frame 177: Time = 3.954 ms, FPS = 252.91
+[ATOMIC]   : Commit successful
+Frame 178: Time = 3.790 ms, FPS = 263.85
+[ATOMIC]   : Commit successful
+Frame 179: Time = 3.890 ms, FPS = 257.07
+[ATOMIC]   : Commit successful
+Frame 180: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 181: Time = 3.838 ms, FPS = 260.55
+[ATOMIC]   : Commit successful
+Frame 182: Time = 3.847 ms, FPS = 259.94
+[ATOMIC]   : Commit successful
+Frame 183: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 184: Time = 3.844 ms, FPS = 260.15
+[ATOMIC]   : Commit successful
+Frame 185: Time = 3.807 ms, FPS = 262.67
+[ATOMIC]   : Commit successful
+Frame 186: Time = 3.932 ms, FPS = 254.32
+[ATOMIC]   : Commit successful
+Frame 187: Time = 3.944 ms, FPS = 253.55
+[ATOMIC]   : Commit successful
+Frame 188: Time = 3.770 ms, FPS = 265.25
+[ATOMIC]   : Commit successful
+Frame 189: Time = 3.850 ms, FPS = 259.74
+[ATOMIC]   : Commit successful
+Frame 190: Time = 3.834 ms, FPS = 260.82
+[ATOMIC]   : Commit successful
+Frame 191: Time = 3.824 ms, FPS = 261.51
+[ATOMIC]   : Commit successful
+Frame 192: Time = 3.875 ms, FPS = 258.06
+[ATOMIC]   : Commit successful
+Frame 193: Time = 3.941 ms, FPS = 253.74
+[ATOMIC]   : Commit successful
+Frame 194: Time = 3.844 ms, FPS = 260.15
+[ATOMIC]   : Commit successful
+Frame 195: Time = 4.040 ms, FPS = 247.52
+[ATOMIC]   : Commit successful
+Frame 196: Time = 4.033 ms, FPS = 247.95
+[ATOMIC]   : Commit successful
+Frame 197: Time = 3.982 ms, FPS = 251.13
+[ATOMIC]   : Commit successful
+Frame 198: Time = 4.187 ms, FPS = 238.83
+[ATOMIC]   : Commit successful
+Frame 199: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 200: Time = 3.761 ms, FPS = 265.89
+[ATOMIC]   : Commit successful
+Frame 201: Time = 3.964 ms, FPS = 252.27
+[ATOMIC]   : Commit successful
+Frame 202: Time = 4.005 ms, FPS = 249.69
+[ATOMIC]   : Commit successful
+Frame 203: Time = 5.993 ms, FPS = 166.86
+[ATOMIC]   : Commit successful
+Frame 204: Time = 3.861 ms, FPS = 259.00
+[ATOMIC]   : Commit successful
+Frame 205: Time = 3.973 ms, FPS = 251.70
+[ATOMIC]   : Commit successful
+Frame 206: Time = 3.855 ms, FPS = 259.40
+[ATOMIC]   : Commit successful
+Frame 207: Time = 3.893 ms, FPS = 256.87
+[ATOMIC]   : Commit successful
+Frame 208: Time = 3.901 ms, FPS = 256.34
+[ATOMIC]   : Commit successful
+Frame 209: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 210: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 211: Time = 3.782 ms, FPS = 264.41
+[ATOMIC]   : Commit successful
+Frame 212: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 213: Time = 3.862 ms, FPS = 258.93
+[ATOMIC]   : Commit successful
+Frame 214: Time = 3.825 ms, FPS = 261.44
+[ATOMIC]   : Commit successful
+Frame 215: Time = 3.542 ms, FPS = 282.33
+[ATOMIC]   : Commit successful
+Frame 216: Time = 3.551 ms, FPS = 281.61
+[ATOMIC]   : Commit successful
+Frame 217: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 218: Time = 3.841 ms, FPS = 260.35
+[ATOMIC]   : Commit successful
+Frame 219: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 220: Time = 3.885 ms, FPS = 257.40
+[ATOMIC]   : Commit successful
+Frame 221: Time = 3.743 ms, FPS = 267.17
+[ATOMIC]   : Commit successful
+Frame 222: Time = 3.529 ms, FPS = 283.37
+[ATOMIC]   : Commit successful
+Frame 223: Time = 3.611 ms, FPS = 276.93
+[ATOMIC]   : Commit successful
+Frame 224: Time = 3.924 ms, FPS = 254.84
+[ATOMIC]   : Commit successful
+Frame 225: Time = 3.823 ms, FPS = 261.57
+[ATOMIC]   : Commit successful
+Frame 226: Time = 4.015 ms, FPS = 249.07
+[ATOMIC]   : Commit successful
+Frame 227: Time = 3.691 ms, FPS = 270.93
+[ATOMIC]   : Commit successful
+Frame 228: Time = 3.762 ms, FPS = 265.82
+[ATOMIC]   : Commit successful
+Frame 229: Time = 3.801 ms, FPS = 263.09
+[ATOMIC]   : Commit successful
+Frame 230: Time = 3.786 ms, FPS = 264.13
+[ATOMIC]   : Commit successful
+Frame 231: Time = 4.029 ms, FPS = 248.20
+[ATOMIC]   : Commit successful
+Frame 232: Time = 3.932 ms, FPS = 254.32
+[ATOMIC]   : Commit successful
+Frame 233: Time = 3.912 ms, FPS = 255.62
+[ATOMIC]   : Commit successful
+Frame 234: Time = 3.920 ms, FPS = 255.10
+[ATOMIC]   : Commit successful
+Frame 235: Time = 3.912 ms, FPS = 255.62
+[ATOMIC]   : Commit successful
+Frame 236: Time = 3.936 ms, FPS = 254.07
+[ATOMIC]   : Commit successful
+Frame 237: Time = 3.891 ms, FPS = 257.00
+[ATOMIC]   : Commit successful
+Frame 238: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 239: Time = 3.986 ms, FPS = 250.88
+[ATOMIC]   : Commit successful
+Frame 240: Time = 3.901 ms, FPS = 256.34
+[ATOMIC]   : Commit successful
+Frame 241: Time = 3.893 ms, FPS = 256.87
+[ATOMIC]   : Commit successful
+Frame 242: Time = 3.926 ms, FPS = 254.71
+[ATOMIC]   : Commit successful
+Frame 243: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 244: Time = 3.917 ms, FPS = 255.30
+[ATOMIC]   : Commit successful
+Frame 245: Time = 3.845 ms, FPS = 260.08
+[ATOMIC]   : Commit successful
+Frame 246: Time = 3.887 ms, FPS = 257.27
+[ATOMIC]   : Commit successful
+Frame 247: Time = 3.883 ms, FPS = 257.53
+[ATOMIC]   : Commit successful
+Frame 248: Time = 3.864 ms, FPS = 258.80
+[ATOMIC]   : Commit successful
+Frame 249: Time = 3.872 ms, FPS = 258.26
+[ATOMIC]   : Commit successful
+Frame 250: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 251: Time = 3.883 ms, FPS = 257.53
+[ATOMIC]   : Commit successful
+Frame 252: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 253: Time = 3.948 ms, FPS = 253.29
+[ATOMIC]   : Commit successful
+Frame 254: Time = 3.887 ms, FPS = 257.27
+[ATOMIC]   : Commit successful
+Frame 255: Time = 3.895 ms, FPS = 256.74
+[ATOMIC]   : Commit successful
+Frame 256: Time = 3.844 ms, FPS = 260.15
+[ATOMIC]   : Commit successful
+Frame 257: Time = 3.871 ms, FPS = 258.33
+[ATOMIC]   : Commit successful
+Frame 258: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 259: Time = 3.978 ms, FPS = 251.38
+[ATOMIC]   : Commit successful
+Frame 260: Time = 3.860 ms, FPS = 259.07
+[ATOMIC]   : Commit successful
+Frame 261: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 262: Time = 3.911 ms, FPS = 255.69
+[ATOMIC]   : Commit successful
+Frame 263: Time = 3.969 ms, FPS = 251.95
+[ATOMIC]   : Commit successful
+Frame 264: Time = 3.932 ms, FPS = 254.32
+[ATOMIC]   : Commit successful
+Frame 265: Time = 4.124 ms, FPS = 242.48
+[ATOMIC]   : Commit successful
+Frame 266: Time = 4.189 ms, FPS = 238.72
+[ATOMIC]   : Commit successful
+Frame 267: Time = 4.196 ms, FPS = 238.32
+[ATOMIC]   : Commit successful
+Frame 268: Time = 4.294 ms, FPS = 232.88
+[ATOMIC]   : Commit successful
+Frame 269: Time = 3.960 ms, FPS = 252.53
+[ATOMIC]   : Commit successful
+Frame 270: Time = 3.995 ms, FPS = 250.31
+[ATOMIC]   : Commit successful
+Frame 271: Time = 3.973 ms, FPS = 251.70
+[ATOMIC]   : Commit successful
+Frame 272: Time = 3.816 ms, FPS = 262.05
+[ATOMIC]   : Commit successful
+Frame 273: Time = 3.978 ms, FPS = 251.38
+[ATOMIC]   : Commit successful
+Frame 274: Time = 4.014 ms, FPS = 249.13
+[ATOMIC]   : Commit successful
+Frame 275: Time = 4.391 ms, FPS = 227.74
+[ATOMIC]   : Commit successful
+Frame 276: Time = 4.620 ms, FPS = 216.45
+[ATOMIC]   : Commit successful
+Frame 277: Time = 4.413 ms, FPS = 226.60
+[ATOMIC]   : Commit successful
+Frame 278: Time = 4.490 ms, FPS = 222.72
+[ATOMIC]   : Commit successful
+Frame 279: Time = 4.324 ms, FPS = 231.27
+[ATOMIC]   : Commit successful
+Frame 280: Time = 4.217 ms, FPS = 237.14
+[ATOMIC]   : Commit successful
+Frame 281: Time = 4.475 ms, FPS = 223.46
+[ATOMIC]   : Commit successful
+Frame 282: Time = 4.435 ms, FPS = 225.48
+[ATOMIC]   : Commit successful
+Frame 283: Time = 4.430 ms, FPS = 225.73
+[ATOMIC]   : Commit successful
+Frame 284: Time = 4.098 ms, FPS = 244.02
+[ATOMIC]   : Commit successful
+Frame 285: Time = 3.769 ms, FPS = 265.32
+[ATOMIC]   : Commit successful
+Frame 286: Time = 3.514 ms, FPS = 284.58
+[ATOMIC]   : Commit successful
+Frame 287: Time = 3.782 ms, FPS = 264.41
+[ATOMIC]   : Commit successful
+Frame 288: Time = 4.394 ms, FPS = 227.58
+[ATOMIC]   : Commit successful
+Frame 289: Time = 4.105 ms, FPS = 243.61
+[ATOMIC]   : Commit successful
+Frame 290: Time = 3.951 ms, FPS = 253.10
+[ATOMIC]   : Commit successful
+Frame 291: Time = 3.777 ms, FPS = 264.76
+[ATOMIC]   : Commit successful
+Frame 292: Time = 3.462 ms, FPS = 288.85
+[ATOMIC]   : Commit successful
+Frame 293: Time = 3.265 ms, FPS = 306.28
+[ATOMIC]   : Commit successful
+Frame 294: Time = 3.261 ms, FPS = 306.65
+[ATOMIC]   : Commit successful
+Frame 295: Time = 3.834 ms, FPS = 260.82
+[ATOMIC]   : Commit successful
+Frame 296: Time = 3.833 ms, FPS = 260.89
+[ATOMIC]   : Commit successful
+Frame 297: Time = 3.272 ms, FPS = 305.62
+[ATOMIC]   : Commit successful
+Frame 298: Time = 3.943 ms, FPS = 253.61
+[ATOMIC]   : Commit successful
+Frame 299: Time = 3.840 ms, FPS = 260.42
+[ATOMIC]   : Commit successful
+Frame 300: Time = 3.877 ms, FPS = 257.93
+[ATOMIC]   : Commit successful
+Frame 301: Time = 3.834 ms, FPS = 260.82
+[ATOMIC]   : Commit successful
+Frame 302: Time = 3.936 ms, FPS = 254.07
+[ATOMIC]   : Commit successful
+Frame 303: Time = 3.693 ms, FPS = 270.78
+[ATOMIC]   : Commit successful
+Frame 304: Time = 3.835 ms, FPS = 260.76
+[ATOMIC]   : Commit successful
+Frame 305: Time = 3.724 ms, FPS = 268.53
+[ATOMIC]   : Commit successful
+Frame 306: Time = 3.718 ms, FPS = 268.96
+[ATOMIC]   : Commit successful
+Frame 307: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 308: Time = 3.880 ms, FPS = 257.73
+[ATOMIC]   : Commit successful
+Frame 309: Time = 3.822 ms, FPS = 261.64
+[ATOMIC]   : Commit successful
+Frame 310: Time = 3.697 ms, FPS = 270.49
+[ATOMIC]   : Commit successful
+Frame 311: Time = 3.908 ms, FPS = 255.89
+[ATOMIC]   : Commit successful
+Frame 312: Time = 3.712 ms, FPS = 269.40
+[ATOMIC]   : Commit successful
+Frame 313: Time = 3.757 ms, FPS = 266.17
+[ATOMIC]   : Commit successful
+Frame 314: Time = 3.843 ms, FPS = 260.21
+[ATOMIC]   : Commit successful
+Frame 315: Time = 3.914 ms, FPS = 255.49
+[ATOMIC]   : Commit successful
+Frame 316: Time = 4.544 ms, FPS = 220.07
+[ATOMIC]   : Commit successful
+Frame 317: Time = 3.952 ms, FPS = 253.04
+[ATOMIC]   : Commit successful
+Frame 318: Time = 4.080 ms, FPS = 245.10
+[ATOMIC]   : Commit successful
+Frame 319: Time = 4.089 ms, FPS = 244.56
+[ATOMIC]   : Commit successful
+Frame 320: Time = 3.926 ms, FPS = 254.71
+[ATOMIC]   : Commit successful
+Frame 321: Time = 3.955 ms, FPS = 252.84
+[ATOMIC]   : Commit successful
+Frame 322: Time = 3.657 ms, FPS = 273.45
+[ATOMIC]   : Commit successful
+Frame 323: Time = 3.259 ms, FPS = 306.84
+[ATOMIC]   : Commit successful
+Frame 324: Time = 5.328 ms, FPS = 187.69
+[ATOMIC]   : Commit successful
+Frame 325: Time = 3.276 ms, FPS = 305.25
+[ATOMIC]   : Commit successful
+Frame 326: Time = 3.387 ms, FPS = 295.25
+[ATOMIC]   : Commit successful
+Frame 327: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 328: Time = 3.926 ms, FPS = 254.71
+[ATOMIC]   : Commit successful
+Frame 329: Time = 3.419 ms, FPS = 292.48
+[ATOMIC]   : Commit successful
+Frame 330: Time = 3.963 ms, FPS = 252.33
+[ATOMIC]   : Commit successful
+Frame 331: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 332: Time = 3.456 ms, FPS = 289.35
+[ATOMIC]   : Commit successful
+Frame 333: Time = 3.968 ms, FPS = 252.02
+[ATOMIC]   : Commit successful
+Frame 334: Time = 3.934 ms, FPS = 254.19
+[ATOMIC]   : Commit successful
+Frame 335: Time = 4.052 ms, FPS = 246.79
+[ATOMIC]   : Commit successful
+Frame 336: Time = 3.814 ms, FPS = 262.19
+[ATOMIC]   : Commit successful
+Frame 337: Time = 4.165 ms, FPS = 240.10
+[ATOMIC]   : Commit successful
+Frame 338: Time = 3.972 ms, FPS = 251.76
+[ATOMIC]   : Commit successful
+Frame 339: Time = 4.102 ms, FPS = 243.78
+[ATOMIC]   : Commit successful
+Frame 340: Time = 4.186 ms, FPS = 238.89
+[ATOMIC]   : Commit successful
+Frame 341: Time = 4.016 ms, FPS = 249.00
+[ATOMIC]   : Commit successful
+Frame 342: Time = 4.026 ms, FPS = 248.39
+[ATOMIC]   : Commit successful
+Frame 343: Time = 3.901 ms, FPS = 256.34
+[ATOMIC]   : Commit successful
+Frame 344: Time = 4.025 ms, FPS = 248.45
+[ATOMIC]   : Commit successful
+Frame 345: Time = 4.263 ms, FPS = 234.58
+[ATOMIC]   : Commit successful
+Frame 346: Time = 3.754 ms, FPS = 266.38
+[ATOMIC]   : Commit successful
+Frame 347: Time = 4.051 ms, FPS = 246.85
+[ATOMIC]   : Commit successful
+Frame 348: Time = 3.965 ms, FPS = 252.21
+[ATOMIC]   : Commit successful
+Frame 349: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 350: Time = 3.998 ms, FPS = 250.13
+[ATOMIC]   : Commit successful
+Frame 351: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 352: Time = 4.041 ms, FPS = 247.46
+[ATOMIC]   : Commit successful
+Frame 353: Time = 4.001 ms, FPS = 249.94
+[ATOMIC]   : Commit successful
+Frame 354: Time = 3.928 ms, FPS = 254.58
+[ATOMIC]   : Commit successful
+Frame 355: Time = 4.024 ms, FPS = 248.51
+[ATOMIC]   : Commit successful
+Frame 356: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 357: Time = 3.954 ms, FPS = 252.91
+[ATOMIC]   : Commit successful
+Frame 358: Time = 4.774 ms, FPS = 209.47
+[ATOMIC]   : Commit successful
+Frame 359: Time = 4.643 ms, FPS = 215.38
+[ATOMIC]   : Commit successful
+Frame 360: Time = 4.050 ms, FPS = 246.91
+[ATOMIC]   : Commit successful
+Frame 361: Time = 4.312 ms, FPS = 231.91
+[ATOMIC]   : Commit successful
+Frame 362: Time = 4.409 ms, FPS = 226.81
+[ATOMIC]   : Commit successful
+Frame 363: Time = 4.320 ms, FPS = 231.48
+[ATOMIC]   : Commit successful
+Frame 364: Time = 4.644 ms, FPS = 215.33
+[ATOMIC]   : Commit successful
+Frame 365: Time = 4.049 ms, FPS = 246.97
+[ATOMIC]   : Commit successful
+Frame 366: Time = 4.514 ms, FPS = 221.53
+[ATOMIC]   : Commit successful
+Frame 367: Time = 4.137 ms, FPS = 241.72
+[ATOMIC]   : Commit successful
+Frame 368: Time = 3.815 ms, FPS = 262.12
+[ATOMIC]   : Commit successful
+Frame 369: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 370: Time = 3.951 ms, FPS = 253.10
+[ATOMIC]   : Commit successful
+Frame 371: Time = 3.969 ms, FPS = 251.95
+[ATOMIC]   : Commit successful
+Frame 372: Time = 3.925 ms, FPS = 254.78
+[ATOMIC]   : Commit successful
+Frame 373: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 374: Time = 3.945 ms, FPS = 253.49
+[ATOMIC]   : Commit successful
+Frame 375: Time = 3.813 ms, FPS = 262.26
+[ATOMIC]   : Commit successful
+Frame 376: Time = 3.903 ms, FPS = 256.21
+[ATOMIC]   : Commit successful
+Frame 377: Time = 3.851 ms, FPS = 259.67
+[ATOMIC]   : Commit successful
+Frame 378: Time = 3.886 ms, FPS = 257.33
+[ATOMIC]   : Commit successful
+Frame 379: Time = 4.005 ms, FPS = 249.69
+[ATOMIC]   : Commit successful
+Frame 380: Time = 3.976 ms, FPS = 251.51
+[ATOMIC]   : Commit successful
+Frame 381: Time = 3.915 ms, FPS = 255.43
+[ATOMIC]   : Commit successful
+Frame 382: Time = 3.960 ms, FPS = 252.53
+[ATOMIC]   : Commit successful
+Frame 383: Time = 3.976 ms, FPS = 251.51
+[ATOMIC]   : Commit successful
+Frame 384: Time = 6.325 ms, FPS = 158.10
+[ATOMIC]   : Commit successful
+Frame 385: Time = 3.826 ms, FPS = 261.37
+[ATOMIC]   : Commit successful
+Frame 386: Time = 3.941 ms, FPS = 253.74
+[ATOMIC]   : Commit successful
+Frame 387: Time = 3.783 ms, FPS = 264.34
+[ATOMIC]   : Commit successful
+Frame 388: Time = 3.788 ms, FPS = 263.99
+[ATOMIC]   : Commit successful
+Frame 389: Time = 4.050 ms, FPS = 246.91
+[ATOMIC]   : Commit successful
+Frame 390: Time = 4.089 ms, FPS = 244.56
+[ATOMIC]   : Commit successful
+Frame 391: Time = 4.074 ms, FPS = 245.46
+[ATOMIC]   : Commit successful
+Frame 392: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 393: Time = 3.903 ms, FPS = 256.21
+[ATOMIC]   : Commit successful
+Frame 394: Time = 3.828 ms, FPS = 261.23
+[ATOMIC]   : Commit successful
+Frame 395: Time = 4.016 ms, FPS = 249.00
+[ATOMIC]   : Commit successful
+Frame 396: Time = 5.452 ms, FPS = 183.42
+[ATOMIC]   : Commit successful
+Frame 397: Time = 4.687 ms, FPS = 213.36
+[ATOMIC]   : Commit successful
+Frame 398: Time = 5.457 ms, FPS = 183.25
+[ATOMIC]   : Commit successful
+Frame 399: Time = 6.145 ms, FPS = 162.73
+[ATOMIC]   : Commit successful
+Frame 400: Time = 4.508 ms, FPS = 221.83
+[ATOMIC]   : Commit successful
+Frame 401: Time = 3.252 ms, FPS = 307.50
+[ATOMIC]   : Commit successful
+Frame 402: Time = 3.378 ms, FPS = 296.03
+[ATOMIC]   : Commit successful
+Frame 403: Time = 3.773 ms, FPS = 265.04
+[ATOMIC]   : Commit successful
+Frame 404: Time = 3.831 ms, FPS = 261.03
+[ATOMIC]   : Commit successful
+Frame 405: Time = 3.739 ms, FPS = 267.45
+[ATOMIC]   : Commit successful
+Frame 406: Time = 3.920 ms, FPS = 255.10
+[ATOMIC]   : Commit successful
+Frame 407: Time = 3.916 ms, FPS = 255.36
+[ATOMIC]   : Commit successful
+Frame 408: Time = 3.944 ms, FPS = 253.55
+[ATOMIC]   : Commit successful
+Frame 409: Time = 3.951 ms, FPS = 253.10
+[ATOMIC]   : Commit successful
+Frame 410: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 411: Time = 3.950 ms, FPS = 253.16
+[ATOMIC]   : Commit successful
+Frame 412: Time = 3.856 ms, FPS = 259.34
+[ATOMIC]   : Commit successful
+Frame 413: Time = 3.883 ms, FPS = 257.53
+[ATOMIC]   : Commit successful
+Frame 414: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 415: Time = 3.732 ms, FPS = 267.95
+[ATOMIC]   : Commit successful
+Frame 416: Time = 3.741 ms, FPS = 267.31
+[ATOMIC]   : Commit successful
+Frame 417: Time = 3.790 ms, FPS = 263.85
+[ATOMIC]   : Commit successful
+Frame 418: Time = 3.760 ms, FPS = 265.96
+[ATOMIC]   : Commit successful
+Frame 419: Time = 3.979 ms, FPS = 251.32
+[ATOMIC]   : Commit successful
+Frame 420: Time = 3.746 ms, FPS = 266.95
+[ATOMIC]   : Commit successful
+Frame 421: Time = 3.781 ms, FPS = 264.48
+[ATOMIC]   : Commit successful
+Frame 422: Time = 3.791 ms, FPS = 263.78
+[ATOMIC]   : Commit successful
+Frame 423: Time = 3.752 ms, FPS = 266.52
+[ATOMIC]   : Commit successful
+Frame 424: Time = 3.905 ms, FPS = 256.08
+[ATOMIC]   : Commit successful
+Frame 425: Time = 3.732 ms, FPS = 267.95
+[ATOMIC]   : Commit successful
+Frame 426: Time = 3.770 ms, FPS = 265.25
+[ATOMIC]   : Commit successful
+Frame 427: Time = 3.757 ms, FPS = 266.17
+[ATOMIC]   : Commit successful
+Frame 428: Time = 3.752 ms, FPS = 266.52
+[ATOMIC]   : Commit successful
+Frame 429: Time = 3.752 ms, FPS = 266.52
+[ATOMIC]   : Commit successful
+Frame 430: Time = 3.813 ms, FPS = 262.26
+[ATOMIC]   : Commit successful
+Frame 431: Time = 3.745 ms, FPS = 267.02
+[ATOMIC]   : Commit successful
+Frame 432: Time = 3.776 ms, FPS = 264.83
+[ATOMIC]   : Commit successful
+Frame 433: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 434: Time = 3.776 ms, FPS = 264.83
+[ATOMIC]   : Commit successful
+Frame 435: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 436: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 437: Time = 3.918 ms, FPS = 255.23
+[ATOMIC]   : Commit successful
+Frame 438: Time = 3.926 ms, FPS = 254.71
+[ATOMIC]   : Commit successful
+Frame 439: Time = 4.051 ms, FPS = 246.85
+[ATOMIC]   : Commit successful
+Frame 440: Time = 3.982 ms, FPS = 251.13
+[ATOMIC]   : Commit successful
+Frame 441: Time = 3.862 ms, FPS = 258.93
+[ATOMIC]   : Commit successful
+Frame 442: Time = 3.909 ms, FPS = 255.82
+[ATOMIC]   : Commit successful
+Frame 443: Time = 3.901 ms, FPS = 256.34
+[ATOMIC]   : Commit successful
+Frame 444: Time = 3.924 ms, FPS = 254.84
+[ATOMIC]   : Commit successful
+Frame 445: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 446: Time = 3.937 ms, FPS = 254.00
+[ATOMIC]   : Commit successful
+Frame 447: Time = 3.883 ms, FPS = 257.53
+[ATOMIC]   : Commit successful
+Frame 448: Time = 3.891 ms, FPS = 257.00
+[ATOMIC]   : Commit successful
+Frame 449: Time = 3.855 ms, FPS = 259.40
+[ATOMIC]   : Commit successful
+Frame 450: Time = 3.802 ms, FPS = 263.02
+[ATOMIC]   : Commit successful
+Frame 451: Time = 3.971 ms, FPS = 251.83
+[ATOMIC]   : Commit successful
+Frame 452: Time = 3.917 ms, FPS = 255.30
+[ATOMIC]   : Commit successful
+Frame 453: Time = 3.935 ms, FPS = 254.13
+[ATOMIC]   : Commit successful
+Frame 454: Time = 3.815 ms, FPS = 262.12
+[ATOMIC]   : Commit successful
+Frame 455: Time = 3.878 ms, FPS = 257.86
+[ATOMIC]   : Commit successful
+Frame 456: Time = 3.878 ms, FPS = 257.86
+[ATOMIC]   : Commit successful
+Frame 457: Time = 3.896 ms, FPS = 256.67
+[ATOMIC]   : Commit successful
+Frame 458: Time = 4.052 ms, FPS = 246.79
+[ATOMIC]   : Commit successful
+Frame 459: Time = 3.886 ms, FPS = 257.33
+[ATOMIC]   : Commit successful
+Frame 460: Time = 3.932 ms, FPS = 254.32
+[ATOMIC]   : Commit successful
+Frame 461: Time = 3.882 ms, FPS = 257.60
+[ATOMIC]   : Commit successful
+Frame 462: Time = 3.929 ms, FPS = 254.52
+[ATOMIC]   : Commit successful
+Frame 463: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 464: Time = 3.798 ms, FPS = 263.30
+[ATOMIC]   : Commit successful
+Frame 465: Time = 3.738 ms, FPS = 267.52
+[ATOMIC]   : Commit successful
+Frame 466: Time = 3.798 ms, FPS = 263.30
+[ATOMIC]   : Commit successful
+Frame 467: Time = 3.823 ms, FPS = 261.57
+[ATOMIC]   : Commit successful
+Frame 468: Time = 4.007 ms, FPS = 249.56
+[ATOMIC]   : Commit successful
+Frame 469: Time = 3.936 ms, FPS = 254.07
+[ATOMIC]   : Commit successful
+Frame 470: Time = 3.772 ms, FPS = 265.11
+[ATOMIC]   : Commit successful
+Frame 471: Time = 3.774 ms, FPS = 264.97
+[ATOMIC]   : Commit successful
+Frame 472: Time = 3.827 ms, FPS = 261.30
+[ATOMIC]   : Commit successful
+Frame 473: Time = 3.771 ms, FPS = 265.18
+[ATOMIC]   : Commit successful
+Frame 474: Time = 3.766 ms, FPS = 265.53
+[ATOMIC]   : Commit successful
+Frame 475: Time = 3.784 ms, FPS = 264.27
+[ATOMIC]   : Commit successful
+Frame 476: Time = 3.794 ms, FPS = 263.57
+[ATOMIC]   : Commit successful
+Frame 477: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 478: Time = 3.793 ms, FPS = 263.64
+[ATOMIC]   : Commit successful
+Frame 479: Time = 4.553 ms, FPS = 219.64
+[ATOMIC]   : Commit successful
+Frame 480: Time = 4.384 ms, FPS = 228.10
+[ATOMIC]   : Commit successful
+Frame 481: Time = 3.881 ms, FPS = 257.67
+[ATOMIC]   : Commit successful
+Frame 482: Time = 3.908 ms, FPS = 255.89
+[ATOMIC]   : Commit successful
+Frame 483: Time = 3.879 ms, FPS = 257.80
+[ATOMIC]   : Commit successful
+Frame 484: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 485: Time = 3.939 ms, FPS = 253.87
+[ATOMIC]   : Commit successful
+Frame 486: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 487: Time = 3.842 ms, FPS = 260.28
+[ATOMIC]   : Commit successful
+Frame 488: Time = 4.292 ms, FPS = 232.99
+[ATOMIC]   : Commit successful
+Frame 489: Time = 3.919 ms, FPS = 255.17
+[ATOMIC]   : Commit successful
+Frame 490: Time = 3.908 ms, FPS = 255.89
+[ATOMIC]   : Commit successful
+Frame 491: Time = 3.958 ms, FPS = 252.65
+[ATOMIC]   : Commit successful
+Frame 492: Time = 3.863 ms, FPS = 258.87
+[ATOMIC]   : Commit successful
+Frame 493: Time = 3.888 ms, FPS = 257.20
+[ATOMIC]   : Commit successful
+Frame 494: Time = 3.925 ms, FPS = 254.78
+[ATOMIC]   : Commit successful
+Frame 495: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 496: Time = 4.021 ms, FPS = 248.69
+[ATOMIC]   : Commit successful
+Frame 497: Time = 3.986 ms, FPS = 250.88
+[ATOMIC]   : Commit successful
+Frame 498: Time = 3.930 ms, FPS = 254.45
+[ATOMIC]   : Commit successful
+Frame 499: Time = 3.894 ms, FPS = 256.81
+[ATOMIC]   : Commit successful
+Frame 500: Time = 3.735 ms, FPS = 267.74
+[ATOMIC]   : Commit successful
+Frame 501: Time = 3.677 ms, FPS = 271.96
+[ATOMIC]   : Commit successful
+Frame 502: Time = 3.755 ms, FPS = 266.31
+[ATOMIC]   : Commit successful
+Frame 503: Time = 3.863 ms, FPS = 258.87
+[ATOMIC]   : Commit successful
+Frame 504: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 505: Time = 3.973 ms, FPS = 251.70
+[ATOMIC]   : Commit successful
+Frame 506: Time = 4.023 ms, FPS = 248.57
+[ATOMIC]   : Commit successful
+Frame 507: Time = 3.918 ms, FPS = 255.23
+[ATOMIC]   : Commit successful
+Frame 508: Time = 3.617 ms, FPS = 276.47
+[ATOMIC]   : Commit successful
+Frame 509: Time = 3.662 ms, FPS = 273.07
+[ATOMIC]   : Commit successful
+Frame 510: Time = 3.613 ms, FPS = 276.78
+[ATOMIC]   : Commit successful
+Frame 511: Time = 3.888 ms, FPS = 257.20
+[ATOMIC]   : Commit successful
+Frame 512: Time = 3.843 ms, FPS = 260.21
+[ATOMIC]   : Commit successful
+Frame 513: Time = 3.917 ms, FPS = 255.30
+[ATOMIC]   : Commit successful
+Frame 514: Time = 3.889 ms, FPS = 257.14
+[ATOMIC]   : Commit successful
+Frame 515: Time = 4.012 ms, FPS = 249.25
+[ATOMIC]   : Commit successful
+Frame 516: Time = 3.752 ms, FPS = 266.52
+[ATOMIC]   : Commit successful
+Frame 517: Time = 3.792 ms, FPS = 263.71
+[ATOMIC]   : Commit successful
+Frame 518: Time = 3.908 ms, FPS = 255.89
+[ATOMIC]   : Commit successful
+Frame 519: Time = 4.028 ms, FPS = 248.26
+[ATOMIC]   : Commit successful
+Frame 520: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 521: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 522: Time = 3.939 ms, FPS = 253.87
+[ATOMIC]   : Commit successful
+Frame 523: Time = 3.909 ms, FPS = 255.82
+[ATOMIC]   : Commit successful
+Frame 524: Time = 3.818 ms, FPS = 261.92
+[ATOMIC]   : Commit successful
+Frame 525: Time = 3.871 ms, FPS = 258.33
+[ATOMIC]   : Commit successful
+Frame 526: Time = 3.899 ms, FPS = 256.48
+[ATOMIC]   : Commit successful
+Frame 527: Time = 3.782 ms, FPS = 264.41
+[ATOMIC]   : Commit successful
+Frame 528: Time = 3.891 ms, FPS = 257.00
+[ATOMIC]   : Commit successful
+Frame 529: Time = 3.834 ms, FPS = 260.82
+[ATOMIC]   : Commit successful
+Frame 530: Time = 3.911 ms, FPS = 255.69
+[ATOMIC]   : Commit successful
+Frame 531: Time = 3.847 ms, FPS = 259.94
+[ATOMIC]   : Commit successful
+Frame 532: Time = 3.699 ms, FPS = 270.34
+[ATOMIC]   : Commit successful
+Frame 533: Time = 3.727 ms, FPS = 268.31
+[ATOMIC]   : Commit successful
+Frame 534: Time = 3.706 ms, FPS = 269.83
+[ATOMIC]   : Commit successful
+Frame 535: Time = 3.878 ms, FPS = 257.86
+[ATOMIC]   : Commit successful
+Frame 536: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 537: Time = 3.726 ms, FPS = 268.38
+[ATOMIC]   : Commit successful
+Frame 538: Time = 3.797 ms, FPS = 263.37
+[ATOMIC]   : Commit successful
+Frame 539: Time = 3.843 ms, FPS = 260.21
+[ATOMIC]   : Commit successful
+Frame 540: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 541: Time = 3.688 ms, FPS = 271.15
+[ATOMIC]   : Commit successful
+Frame 542: Time = 3.360 ms, FPS = 297.62
+[ATOMIC]   : Commit successful
+Frame 543: Time = 3.683 ms, FPS = 271.52
+[ATOMIC]   : Commit successful
+Frame 544: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 545: Time = 3.732 ms, FPS = 267.95
+[ATOMIC]   : Commit successful
+Frame 546: Time = 3.726 ms, FPS = 268.38
+[ATOMIC]   : Commit successful
+Frame 547: Time = 3.697 ms, FPS = 270.49
+[ATOMIC]   : Commit successful
+Frame 548: Time = 3.861 ms, FPS = 259.00
+[ATOMIC]   : Commit successful
+Frame 549: Time = 3.673 ms, FPS = 272.26
+[ATOMIC]   : Commit successful
+Frame 550: Time = 3.697 ms, FPS = 270.49
+[ATOMIC]   : Commit successful
+Frame 551: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 552: Time = 3.688 ms, FPS = 271.15
+[ATOMIC]   : Commit successful
+Frame 553: Time = 3.725 ms, FPS = 268.46
+[ATOMIC]   : Commit successful
+Frame 554: Time = 3.704 ms, FPS = 269.98
+[ATOMIC]   : Commit successful
+Frame 555: Time = 3.896 ms, FPS = 256.67
+[ATOMIC]   : Commit successful
+Frame 556: Time = 3.865 ms, FPS = 258.73
+[ATOMIC]   : Commit successful
+Frame 557: Time = 3.915 ms, FPS = 255.43
+[ATOMIC]   : Commit successful
+Frame 558: Time = 3.905 ms, FPS = 256.08
+[ATOMIC]   : Commit successful
+Frame 559: Time = 3.956 ms, FPS = 252.78
+[ATOMIC]   : Commit successful
+Frame 560: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 561: Time = 3.936 ms, FPS = 254.07
+[ATOMIC]   : Commit successful
+Frame 562: Time = 3.833 ms, FPS = 260.89
+[ATOMIC]   : Commit successful
+Frame 563: Time = 3.826 ms, FPS = 261.37
+[ATOMIC]   : Commit successful
+Frame 564: Time = 3.907 ms, FPS = 255.95
+[ATOMIC]   : Commit successful
+Frame 565: Time = 3.850 ms, FPS = 259.74
+[ATOMIC]   : Commit successful
+Frame 566: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 567: Time = 3.781 ms, FPS = 264.48
+[ATOMIC]   : Commit successful
+Frame 568: Time = 3.728 ms, FPS = 268.24
+[ATOMIC]   : Commit successful
+Frame 569: Time = 3.906 ms, FPS = 256.02
+[ATOMIC]   : Commit successful
+Frame 570: Time = 3.887 ms, FPS = 257.27
+[ATOMIC]   : Commit successful
+Frame 571: Time = 3.865 ms, FPS = 258.73
+[ATOMIC]   : Commit successful
+Frame 572: Time = 4.400 ms, FPS = 227.27
+[ATOMIC]   : Commit successful
+Frame 573: Time = 3.911 ms, FPS = 255.69
+[ATOMIC]   : Commit successful
+Frame 574: Time = 3.989 ms, FPS = 250.69
+[ATOMIC]   : Commit successful
+Frame 575: Time = 3.723 ms, FPS = 268.60
+[ATOMIC]   : Commit successful
+Frame 576: Time = 3.721 ms, FPS = 268.74
+[ATOMIC]   : Commit successful
+Frame 577: Time = 3.721 ms, FPS = 268.74
+[ATOMIC]   : Commit successful
+Frame 578: Time = 3.645 ms, FPS = 274.35
+[ATOMIC]   : Commit successful
+Frame 579: Time = 3.805 ms, FPS = 262.81
+[ATOMIC]   : Commit successful
+Frame 580: Time = 3.724 ms, FPS = 268.53
+[ATOMIC]   : Commit successful
+Frame 581: Time = 3.649 ms, FPS = 274.05
+[ATOMIC]   : Commit successful
+Frame 582: Time = 3.523 ms, FPS = 283.85
+[ATOMIC]   : Commit successful
+Frame 583: Time = 3.749 ms, FPS = 266.74
+[ATOMIC]   : Commit successful
+Frame 584: Time = 3.805 ms, FPS = 262.81
+[ATOMIC]   : Commit successful
+Frame 585: Time = 3.851 ms, FPS = 259.67
+[ATOMIC]   : Commit successful
+Frame 586: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 587: Time = 3.936 ms, FPS = 254.07
+[ATOMIC]   : Commit successful
+Frame 588: Time = 3.708 ms, FPS = 269.69
+[ATOMIC]   : Commit successful
+Frame 589: Time = 3.475 ms, FPS = 287.77
+[ATOMIC]   : Commit successful
+Frame 590: Time = 3.595 ms, FPS = 278.16
+[ATOMIC]   : Commit successful
+Frame 591: Time = 3.686 ms, FPS = 271.30
+[ATOMIC]   : Commit successful
+Frame 592: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 593: Time = 3.746 ms, FPS = 266.95
+[ATOMIC]   : Commit successful
+Frame 594: Time = 3.912 ms, FPS = 255.62
+[ATOMIC]   : Commit successful
+Frame 595: Time = 3.655 ms, FPS = 273.60
+[ATOMIC]   : Commit successful
+Frame 596: Time = 3.743 ms, FPS = 267.17
+[ATOMIC]   : Commit successful
+Frame 597: Time = 3.537 ms, FPS = 282.73
+[ATOMIC]   : Commit successful
+Frame 598: Time = 3.928 ms, FPS = 254.58
+[ATOMIC]   : Commit successful
+Frame 599: Time = 3.804 ms, FPS = 262.88
+[ATOMIC]   : Commit successful
+Frame 600: Time = 3.988 ms, FPS = 250.75
+[ATOMIC]   : Commit successful
+Frame 601: Time = 3.950 ms, FPS = 253.16
+[ATOMIC]   : Commit successful
+Frame 602: Time = 3.628 ms, FPS = 275.63
+[ATOMIC]   : Commit successful
+Frame 603: Time = 3.684 ms, FPS = 271.44
+[ATOMIC]   : Commit successful
+Frame 604: Time = 3.905 ms, FPS = 256.08
+[ATOMIC]   : Commit successful
+Frame 605: Time = 3.750 ms, FPS = 266.67
+[ATOMIC]   : Commit successful
+Frame 606: Time = 3.739 ms, FPS = 267.45
+[ATOMIC]   : Commit successful
+Frame 607: Time = 3.885 ms, FPS = 257.40
+[ATOMIC]   : Commit successful
+Frame 608: Time = 3.898 ms, FPS = 256.54
+[ATOMIC]   : Commit successful
+Frame 609: Time = 3.662 ms, FPS = 273.07
+[ATOMIC]   : Commit successful
+Frame 610: Time = 3.715 ms, FPS = 269.18
+[ATOMIC]   : Commit successful
+Frame 611: Time = 3.902 ms, FPS = 256.28
+[ATOMIC]   : Commit successful
+Frame 612: Time = 3.976 ms, FPS = 251.51
+[ATOMIC]   : Commit successful
+Frame 613: Time = 3.777 ms, FPS = 264.76
+[ATOMIC]   : Commit successful
+Frame 614: Time = 4.013 ms, FPS = 249.19
+[ATOMIC]   : Commit successful
+Frame 615: Time = 3.620 ms, FPS = 276.24
+[ATOMIC]   : Commit successful
+Frame 616: Time = 3.500 ms, FPS = 285.71
+[ATOMIC]   : Commit successful
+Frame 617: Time = 3.359 ms, FPS = 297.71
+[ATOMIC]   : Commit successful
+Frame 618: Time = 3.535 ms, FPS = 282.89
+[ATOMIC]   : Commit successful
+Frame 619: Time = 3.511 ms, FPS = 284.82
+[ATOMIC]   : Commit successful
+Frame 620: Time = 3.346 ms, FPS = 298.86
+[ATOMIC]   : Commit successful
+Frame 621: Time = 3.472 ms, FPS = 288.02
+[ATOMIC]   : Commit successful
+Frame 622: Time = 3.429 ms, FPS = 291.63
+[ATOMIC]   : Commit successful
+Frame 623: Time = 3.457 ms, FPS = 289.27
+[ATOMIC]   : Commit successful
+Frame 624: Time = 4.019 ms, FPS = 248.82
+[ATOMIC]   : Commit successful
+Frame 625: Time = 3.890 ms, FPS = 257.07
+[ATOMIC]   : Commit successful
+Frame 626: Time = 3.769 ms, FPS = 265.32
+[ATOMIC]   : Commit successful
+Frame 627: Time = 3.690 ms, FPS = 271.00
+[ATOMIC]   : Commit successful
+Frame 628: Time = 3.817 ms, FPS = 261.99
+[ATOMIC]   : Commit successful
+Frame 629: Time = 3.836 ms, FPS = 260.69
+[ATOMIC]   : Commit successful
+Frame 630: Time = 3.920 ms, FPS = 255.10
+[ATOMIC]   : Commit successful
+Frame 631: Time = 3.910 ms, FPS = 255.75
+[ATOMIC]   : Commit successful
+Frame 632: Time = 3.911 ms, FPS = 255.69
+[ATOMIC]   : Commit successful
+Frame 633: Time = 3.851 ms, FPS = 259.67
+[ATOMIC]   : Commit successful
+Frame 634: Time = 3.825 ms, FPS = 261.44
+[ATOMIC]   : Commit successful
+Frame 635: Time = 3.921 ms, FPS = 255.04
+[ATOMIC]   : Commit successful
+Frame 636: Time = 3.948 ms, FPS = 253.29
+[ATOMIC]   : Commit successful
+Frame 637: Time = 3.864 ms, FPS = 258.80
+[ATOMIC]   : Commit successful
+Frame 638: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 639: Time = 3.993 ms, FPS = 250.44
+[ATOMIC]   : Commit successful
+Frame 640: Time = 3.890 ms, FPS = 257.07
+[ATOMIC]   : Commit successful
+Frame 641: Time = 3.900 ms, FPS = 256.41
+[ATOMIC]   : Commit successful
+Frame 642: Time = 3.929 ms, FPS = 254.52
+[ATOMIC]   : Commit successful
+Frame 643: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 644: Time = 3.774 ms, FPS = 264.97
+[ATOMIC]   : Commit successful
+Frame 645: Time = 3.819 ms, FPS = 261.85
+[ATOMIC]   : Commit successful
+Frame 646: Time = 3.750 ms, FPS = 266.67
+[ATOMIC]   : Commit successful
+Frame 647: Time = 3.855 ms, FPS = 259.40
+[ATOMIC]   : Commit successful
+Frame 648: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 649: Time = 3.878 ms, FPS = 257.86
+[ATOMIC]   : Commit successful
+Frame 650: Time = 3.906 ms, FPS = 256.02
+[ATOMIC]   : Commit successful
+Frame 651: Time = 3.796 ms, FPS = 263.44
+[ATOMIC]   : Commit successful
+Frame 652: Time = 3.708 ms, FPS = 269.69
+[ATOMIC]   : Commit successful
+Frame 653: Time = 3.697 ms, FPS = 270.49
+[ATOMIC]   : Commit successful
+Frame 654: Time = 3.742 ms, FPS = 267.24
+[ATOMIC]   : Commit successful
+Frame 655: Time = 3.687 ms, FPS = 271.22
+[ATOMIC]   : Commit successful
+Frame 656: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 657: Time = 3.728 ms, FPS = 268.24
+[ATOMIC]   : Commit successful
+Frame 658: Time = 3.696 ms, FPS = 270.56
+[ATOMIC]   : Commit successful
+Frame 659: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 660: Time = 3.763 ms, FPS = 265.75
+[ATOMIC]   : Commit successful
+Frame 661: Time = 3.797 ms, FPS = 263.37
+[ATOMIC]   : Commit successful
+Frame 662: Time = 3.768 ms, FPS = 265.39
+[ATOMIC]   : Commit successful
+Frame 663: Time = 3.754 ms, FPS = 266.38
+[ATOMIC]   : Commit successful
+Frame 664: Time = 3.704 ms, FPS = 269.98
+[ATOMIC]   : Commit successful
+Frame 665: Time = 3.704 ms, FPS = 269.98
+[ATOMIC]   : Commit successful
+Frame 666: Time = 3.700 ms, FPS = 270.27
+[ATOMIC]   : Commit successful
+Frame 667: Time = 3.858 ms, FPS = 259.20
+[ATOMIC]   : Commit successful
+Frame 668: Time = 3.443 ms, FPS = 290.44
+[ATOMIC]   : Commit successful
+Frame 669: Time = 3.315 ms, FPS = 301.66
+[ATOMIC]   : Commit successful
+Frame 670: Time = 3.224 ms, FPS = 310.17
+[ATOMIC]   : Commit successful
+Frame 671: Time = 3.156 ms, FPS = 316.86
+[ATOMIC]   : Commit successful
+Frame 672: Time = 3.984 ms, FPS = 251.00
+[ATOMIC]   : Commit successful
+Frame 673: Time = 3.230 ms, FPS = 309.60
+[ATOMIC]   : Commit successful
+Frame 674: Time = 3.240 ms, FPS = 308.64
+[ATOMIC]   : Commit successful
+Frame 675: Time = 3.284 ms, FPS = 304.51
+[ATOMIC]   : Commit successful
+Frame 676: Time = 3.947 ms, FPS = 253.36
+[ATOMIC]   : Commit successful
+Frame 677: Time = 4.002 ms, FPS = 249.88
+[ATOMIC]   : Commit successful
+Frame 678: Time = 3.951 ms, FPS = 253.10
+[ATOMIC]   : Commit successful
+Frame 679: Time = 3.899 ms, FPS = 256.48
+[ATOMIC]   : Commit successful
+Frame 680: Time = 3.788 ms, FPS = 263.99
+[ATOMIC]   : Commit successful
+Frame 681: Time = 3.761 ms, FPS = 265.89
+[ATOMIC]   : Commit successful
+Frame 682: Time = 3.972 ms, FPS = 251.76
+[ATOMIC]   : Commit successful
+Frame 683: Time = 4.008 ms, FPS = 249.50
+[ATOMIC]   : Commit successful
+Frame 684: Time = 3.894 ms, FPS = 256.81
+[ATOMIC]   : Commit successful
+Frame 685: Time = 3.800 ms, FPS = 263.16
+[ATOMIC]   : Commit successful
+Frame 686: Time = 4.070 ms, FPS = 245.70
+[ATOMIC]   : Commit successful
+Frame 687: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 688: Time = 4.051 ms, FPS = 246.85
+[ATOMIC]   : Commit successful
+Frame 689: Time = 3.972 ms, FPS = 251.76
+[ATOMIC]   : Commit successful
+Frame 690: Time = 3.957 ms, FPS = 252.72
+[ATOMIC]   : Commit successful
+Frame 691: Time = 3.807 ms, FPS = 262.67
+[ATOMIC]   : Commit successful
+Frame 692: Time = 3.826 ms, FPS = 261.37
+[ATOMIC]   : Commit successful
+Frame 693: Time = 3.807 ms, FPS = 262.67
+[ATOMIC]   : Commit successful
+Frame 694: Time = 3.827 ms, FPS = 261.30
+[ATOMIC]   : Commit successful
+Frame 695: Time = 3.937 ms, FPS = 254.00
+[ATOMIC]   : Commit successful
+Frame 696: Time = 3.961 ms, FPS = 252.46
+[ATOMIC]   : Commit successful
+Frame 697: Time = 4.006 ms, FPS = 249.63
+[ATOMIC]   : Commit successful
+Frame 698: Time = 3.754 ms, FPS = 266.38
+[ATOMIC]   : Commit successful
+Frame 699: Time = 3.879 ms, FPS = 257.80
+[ATOMIC]   : Commit successful
+Frame 700: Time = 3.781 ms, FPS = 264.48
+[ATOMIC]   : Commit successful
+Frame 701: Time = 3.811 ms, FPS = 262.40
+[ATOMIC]   : Commit successful
+Frame 702: Time = 3.792 ms, FPS = 263.71
+[ATOMIC]   : Commit successful
+Frame 703: Time = 3.821 ms, FPS = 261.71
+[ATOMIC]   : Commit successful
+Frame 704: Time = 3.831 ms, FPS = 261.03
+[ATOMIC]   : Commit successful
+Frame 705: Time = 3.778 ms, FPS = 264.69
+[ATOMIC]   : Commit successful
+Frame 706: Time = 3.863 ms, FPS = 258.87
+[ATOMIC]   : Commit successful
+Frame 707: Time = 3.999 ms, FPS = 250.06
+[ATOMIC]   : Commit successful
+Frame 708: Time = 4.027 ms, FPS = 248.32
+[ATOMIC]   : Commit successful
+Frame 709: Time = 3.800 ms, FPS = 263.16
+[ATOMIC]   : Commit successful
+Frame 710: Time = 3.783 ms, FPS = 264.34
+[ATOMIC]   : Commit successful
+Frame 711: Time = 4.064 ms, FPS = 246.06
+[ATOMIC]   : Commit successful
+Frame 712: Time = 3.781 ms, FPS = 264.48
+[ATOMIC]   : Commit successful
+Frame 713: Time = 3.804 ms, FPS = 262.88
+[ATOMIC]   : Commit successful
+Frame 714: Time = 3.784 ms, FPS = 264.27
+[ATOMIC]   : Commit successful
+Frame 715: Time = 4.031 ms, FPS = 248.08
+[ATOMIC]   : Commit successful
+Frame 716: Time = 3.885 ms, FPS = 257.40
+[ATOMIC]   : Commit successful
+Frame 717: Time = 3.804 ms, FPS = 262.88
+[ATOMIC]   : Commit successful
+Frame 718: Time = 3.810 ms, FPS = 262.47
+[ATOMIC]   : Commit successful
+Frame 719: Time = 3.867 ms, FPS = 258.60
+[ATOMIC]   : Commit successful
+Frame 720: Time = 3.817 ms, FPS = 261.99
+[ATOMIC]   : Commit successful
+Frame 721: Time = 3.768 ms, FPS = 265.39
+[ATOMIC]   : Commit successful
+Frame 722: Time = 4.075 ms, FPS = 245.40
+[ATOMIC]   : Commit successful
+Frame 723: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 724: Time = 4.059 ms, FPS = 246.37
+[ATOMIC]   : Commit successful
+Frame 725: Time = 4.038 ms, FPS = 247.65
+[ATOMIC]   : Commit successful
+Frame 726: Time = 4.028 ms, FPS = 248.26
+[ATOMIC]   : Commit successful
+Frame 727: Time = 4.236 ms, FPS = 236.07
+[ATOMIC]   : Commit successful
+Frame 728: Time = 3.875 ms, FPS = 258.06
+[ATOMIC]   : Commit successful
+Frame 729: Time = 4.025 ms, FPS = 248.45
+[ATOMIC]   : Commit successful
+Frame 730: Time = 4.017 ms, FPS = 248.94
+[ATOMIC]   : Commit successful
+Frame 731: Time = 4.027 ms, FPS = 248.32
+[ATOMIC]   : Commit successful
+Frame 732: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 733: Time = 3.883 ms, FPS = 257.53
+[ATOMIC]   : Commit successful
+Frame 734: Time = 3.875 ms, FPS = 258.06
+[ATOMIC]   : Commit successful
+Frame 735: Time = 4.054 ms, FPS = 246.67
+[ATOMIC]   : Commit successful
+Frame 736: Time = 3.944 ms, FPS = 253.55
+[ATOMIC]   : Commit successful
+Frame 737: Time = 3.792 ms, FPS = 263.71
+[ATOMIC]   : Commit successful
+Frame 738: Time = 4.087 ms, FPS = 244.68
+[ATOMIC]   : Commit successful
+Frame 739: Time = 3.427 ms, FPS = 291.80
+[ATOMIC]   : Commit successful
+Frame 740: Time = 3.257 ms, FPS = 307.03
+[ATOMIC]   : Commit successful
+Frame 741: Time = 3.272 ms, FPS = 305.62
+[ATOMIC]   : Commit successful
+Frame 742: Time = 3.257 ms, FPS = 307.03
+[ATOMIC]   : Commit successful
+Frame 743: Time = 3.795 ms, FPS = 263.50
+[ATOMIC]   : Commit successful
+Frame 744: Time = 3.780 ms, FPS = 264.55
+[ATOMIC]   : Commit successful
+Frame 745: Time = 4.001 ms, FPS = 249.94
+[ATOMIC]   : Commit successful
+Frame 746: Time = 3.604 ms, FPS = 277.47
+[ATOMIC]   : Commit successful
+Frame 747: Time = 3.483 ms, FPS = 287.11
+[ATOMIC]   : Commit successful
+Frame 748: Time = 3.878 ms, FPS = 257.86
+[ATOMIC]   : Commit successful
+Frame 749: Time = 3.917 ms, FPS = 255.30
+[ATOMIC]   : Commit successful
+Frame 750: Time = 4.036 ms, FPS = 247.77
+[ATOMIC]   : Commit successful
+Frame 751: Time = 3.758 ms, FPS = 266.10
+[ATOMIC]   : Commit successful
+Frame 752: Time = 3.842 ms, FPS = 260.28
+[ATOMIC]   : Commit successful
+Frame 753: Time = 3.599 ms, FPS = 277.85
+[ATOMIC]   : Commit successful
+Frame 754: Time = 3.776 ms, FPS = 264.83
+[ATOMIC]   : Commit successful
+Frame 755: Time = 3.762 ms, FPS = 265.82
+[ATOMIC]   : Commit successful
+Frame 756: Time = 3.865 ms, FPS = 258.73
+[ATOMIC]   : Commit successful
+Frame 757: Time = 3.725 ms, FPS = 268.46
+[ATOMIC]   : Commit successful
+Frame 758: Time = 3.773 ms, FPS = 265.04
+[ATOMIC]   : Commit successful
+Frame 759: Time = 3.599 ms, FPS = 277.85
+[ATOMIC]   : Commit successful
+Frame 760: Time = 4.208 ms, FPS = 237.64
+[ATOMIC]   : Commit successful
+Frame 761: Time = 4.223 ms, FPS = 236.80
+[ATOMIC]   : Commit successful
+Frame 762: Time = 3.835 ms, FPS = 260.76
+[ATOMIC]   : Commit successful
+Frame 763: Time = 4.046 ms, FPS = 247.16
+[ATOMIC]   : Commit successful
+Frame 764: Time = 4.588 ms, FPS = 217.96
+[ATOMIC]   : Commit successful
+Frame 765: Time = 3.518 ms, FPS = 284.25
+[ATOMIC]   : Commit successful
+Frame 766: Time = 4.044 ms, FPS = 247.28
+[ATOMIC]   : Commit successful
+Frame 767: Time = 3.985 ms, FPS = 250.94
+[ATOMIC]   : Commit successful
+Frame 768: Time = 3.851 ms, FPS = 259.67
+[ATOMIC]   : Commit successful
+Frame 769: Time = 3.728 ms, FPS = 268.24
+[ATOMIC]   : Commit successful
+Frame 770: Time = 3.886 ms, FPS = 257.33
+[ATOMIC]   : Commit successful
+Frame 771: Time = 3.401 ms, FPS = 294.03
+[ATOMIC]   : Commit successful
+Frame 772: Time = 3.239 ms, FPS = 308.74
+[ATOMIC]   : Commit successful
+Frame 773: Time = 3.339 ms, FPS = 299.49
+[ATOMIC]   : Commit successful
+Frame 774: Time = 3.330 ms, FPS = 300.30
+[ATOMIC]   : Commit successful
+Frame 775: Time = 3.302 ms, FPS = 302.85
+[ATOMIC]   : Commit successful
+Frame 776: Time = 3.271 ms, FPS = 305.72
+[ATOMIC]   : Commit successful
+Frame 777: Time = 3.326 ms, FPS = 300.66
+[ATOMIC]   : Commit successful
+Frame 778: Time = 3.281 ms, FPS = 304.79
+[ATOMIC]   : Commit successful
+Frame 779: Time = 3.398 ms, FPS = 294.29
+[ATOMIC]   : Commit successful
+Frame 780: Time = 3.275 ms, FPS = 305.34
+[ATOMIC]   : Commit successful
+Frame 781: Time = 3.252 ms, FPS = 307.50
+[ATOMIC]   : Commit successful
+Frame 782: Time = 3.321 ms, FPS = 301.11
+[ATOMIC]   : Commit successful
+Frame 783: Time = 3.246 ms, FPS = 308.07
+[ATOMIC]   : Commit successful
+Frame 784: Time = 3.224 ms, FPS = 310.17
+[ATOMIC]   : Commit successful
+Frame 785: Time = 3.236 ms, FPS = 309.02
+[ATOMIC]   : Commit successful
+Frame 786: Time = 3.287 ms, FPS = 304.23
+[ATOMIC]   : Commit successful
+Frame 787: Time = 3.266 ms, FPS = 306.18
+[ATOMIC]   : Commit successful
+Frame 788: Time = 3.294 ms, FPS = 303.58
+[ATOMIC]   : Commit successful
+Frame 789: Time = 3.407 ms, FPS = 293.51
+[ATOMIC]   : Commit successful
+Frame 790: Time = 3.259 ms, FPS = 306.84
+[ATOMIC]   : Commit successful
+Frame 791: Time = 3.842 ms, FPS = 260.28
+[ATOMIC]   : Commit successful
+Frame 792: Time = 3.241 ms, FPS = 308.55
+[ATOMIC]   : Commit successful
+Frame 793: Time = 3.273 ms, FPS = 305.53
+[ATOMIC]   : Commit successful
+Frame 794: Time = 3.223 ms, FPS = 310.27
+[ATOMIC]   : Commit successful
+Frame 795: Time = 3.888 ms, FPS = 257.20
+[ATOMIC]   : Commit successful
+Frame 796: Time = 3.855 ms, FPS = 259.40
+[ATOMIC]   : Commit successful
+Frame 797: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 798: Time = 3.895 ms, FPS = 256.74
+[ATOMIC]   : Commit successful
+Frame 799: Time = 4.047 ms, FPS = 247.10
+[ATOMIC]   : Commit successful
+Frame 800: Time = 4.170 ms, FPS = 239.81
+[ATOMIC]   : Commit successful
+Frame 801: Time = 3.954 ms, FPS = 252.91
+[ATOMIC]   : Commit successful
+Frame 802: Time = 3.913 ms, FPS = 255.56
+[ATOMIC]   : Commit successful
+Frame 803: Time = 3.835 ms, FPS = 260.76
+[ATOMIC]   : Commit successful
+Frame 804: Time = 3.747 ms, FPS = 266.88
+[ATOMIC]   : Commit successful
+Frame 805: Time = 3.875 ms, FPS = 258.06
+[ATOMIC]   : Commit successful
+Frame 806: Time = 3.843 ms, FPS = 260.21
+[ATOMIC]   : Commit successful
+Frame 807: Time = 3.842 ms, FPS = 260.28
+[ATOMIC]   : Commit successful
+Frame 808: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 809: Time = 3.891 ms, FPS = 257.00
+[ATOMIC]   : Commit successful
+Frame 810: Time = 3.931 ms, FPS = 254.39
+[ATOMIC]   : Commit successful
+Frame 811: Time = 3.801 ms, FPS = 263.09
+[ATOMIC]   : Commit successful
+Frame 812: Time = 3.752 ms, FPS = 266.52
+[ATOMIC]   : Commit successful
+Frame 813: Time = 3.966 ms, FPS = 252.14
+[ATOMIC]   : Commit successful
+Frame 814: Time = 3.862 ms, FPS = 258.93
+[ATOMIC]   : Commit successful
+Frame 815: Time = 3.903 ms, FPS = 256.21
+[ATOMIC]   : Commit successful
+Frame 816: Time = 3.868 ms, FPS = 258.53
+[ATOMIC]   : Commit successful
+Frame 817: Time = 3.719 ms, FPS = 268.89
+[ATOMIC]   : Commit successful
+Frame 818: Time = 3.779 ms, FPS = 264.62
+[ATOMIC]   : Commit successful
+Frame 819: Time = 4.124 ms, FPS = 242.48
+[ATOMIC]   : Commit successful
+Frame 820: Time = 3.807 ms, FPS = 262.67
+[ATOMIC]   : Commit successful
+Frame 821: Time = 3.760 ms, FPS = 265.96
+[ATOMIC]   : Commit successful
+Frame 822: Time = 3.904 ms, FPS = 256.15
+[ATOMIC]   : Commit successful
+Frame 823: Time = 3.782 ms, FPS = 264.41
+[ATOMIC]   : Commit successful
+Frame 824: Time = 3.832 ms, FPS = 260.96
+[ATOMIC]   : Commit successful
+Frame 825: Time = 3.917 ms, FPS = 255.30
+[ATOMIC]   : Commit successful
+Frame 826: Time = 3.786 ms, FPS = 264.13
+[ATOMIC]   : Commit successful
+Frame 827: Time = 3.958 ms, FPS = 252.65
+[ATOMIC]   : Commit successful
+Frame 828: Time = 3.829 ms, FPS = 261.16
+[ATOMIC]   : Commit successful
+Frame 829: Time = 3.861 ms, FPS = 259.00
+[ATOMIC]   : Commit successful
+Frame 830: Time = 3.901 ms, FPS = 256.34
+[ATOMIC]   : Commit successful
+Frame 831: Time = 3.772 ms, FPS = 265.11
+[ATOMIC]   : Commit successful
+Frame 832: Time = 3.384 ms, FPS = 295.51
+[ATOMIC]   : Commit successful
+Frame 833: Time = 3.886 ms, FPS = 257.33
+[ATOMIC]   : Commit successful
+Frame 834: Time = 3.762 ms, FPS = 265.82
+[ATOMIC]   : Commit successful
+Frame 835: Time = 3.795 ms, FPS = 263.50
+[ATOMIC]   : Commit successful
+Frame 836: Time = 3.892 ms, FPS = 256.94
+[ATOMIC]   : Commit successful
+Frame 837: Time = 3.773 ms, FPS = 265.04
+[ATOMIC]   : Commit successful
+Frame 838: Time = 3.799 ms, FPS = 263.23
+[ATOMIC]   : Commit successful
+Frame 839: Time = 3.847 ms, FPS = 259.94
+[ATOMIC]   : Commit successful
+Frame 840: Time = 3.941 ms, FPS = 253.74
+[ATOMIC]   : Commit successful
+Frame 841: Time = 3.828 ms, FPS = 261.23
+[ATOMIC]   : Commit successful
+Frame 842: Time = 3.766 ms, FPS = 265.53
+[ATOMIC]   : Commit successful
+Frame 843: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 844: Time = 3.743 ms, FPS = 267.17
+[ATOMIC]   : Commit successful
+Frame 845: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 846: Time = 3.836 ms, FPS = 260.69
+[ATOMIC]   : Commit successful
+Frame 847: Time = 3.770 ms, FPS = 265.25
+[ATOMIC]   : Commit successful
+Frame 848: Time = 3.881 ms, FPS = 257.67
+[ATOMIC]   : Commit successful
+Frame 849: Time = 3.767 ms, FPS = 265.46
+[ATOMIC]   : Commit successful
+Frame 850: Time = 3.772 ms, FPS = 265.11
+[ATOMIC]   : Commit successful
+Frame 851: Time = 3.721 ms, FPS = 268.74
+[ATOMIC]   : Commit successful
+Frame 852: Time = 3.963 ms, FPS = 252.33
+[ATOMIC]   : Commit successful
+Frame 853: Time = 3.798 ms, FPS = 263.30
+[ATOMIC]   : Commit successful
+Frame 854: Time = 3.763 ms, FPS = 265.75
+[ATOMIC]   : Commit successful
+Frame 855: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 856: Time = 3.833 ms, FPS = 260.89
+[ATOMIC]   : Commit successful
+Frame 857: Time = 4.186 ms, FPS = 238.89
+[ATOMIC]   : Commit successful
+Frame 858: Time = 3.774 ms, FPS = 264.97
+[ATOMIC]   : Commit successful
+Frame 859: Time = 3.471 ms, FPS = 288.10
+[ATOMIC]   : Commit successful
+Frame 860: Time = 3.396 ms, FPS = 294.46
+[ATOMIC]   : Commit successful
+Frame 861: Time = 3.298 ms, FPS = 303.21
+[ATOMIC]   : Commit successful
+Frame 862: Time = 3.356 ms, FPS = 297.97
+[ATOMIC]   : Commit successful
+Frame 863: Time = 3.287 ms, FPS = 304.23
+[ATOMIC]   : Commit successful
+Frame 864: Time = 3.495 ms, FPS = 286.12
+[ATOMIC]   : Commit successful
+Frame 865: Time = 4.065 ms, FPS = 246.00
+[ATOMIC]   : Commit successful
+Frame 866: Time = 4.363 ms, FPS = 229.20
+[ATOMIC]   : Commit successful
+Frame 867: Time = 4.119 ms, FPS = 242.78
+[ATOMIC]   : Commit successful
+Frame 868: Time = 3.906 ms, FPS = 256.02
+[ATOMIC]   : Commit successful
+Frame 869: Time = 3.520 ms, FPS = 284.09
+[ATOMIC]   : Commit successful
+Frame 870: Time = 3.343 ms, FPS = 299.13
+[ATOMIC]   : Commit successful
+Frame 871: Time = 3.260 ms, FPS = 306.75
+[ATOMIC]   : Commit successful
+Frame 872: Time = 3.545 ms, FPS = 282.09
+[ATOMIC]   : Commit successful
+Frame 873: Time = 3.892 ms, FPS = 256.94
+[ATOMIC]   : Commit successful
+Frame 874: Time = 3.881 ms, FPS = 257.67
+[ATOMIC]   : Commit successful
+Frame 875: Time = 4.224 ms, FPS = 236.74
+[ATOMIC]   : Commit successful
+Frame 876: Time = 3.505 ms, FPS = 285.31
+[ATOMIC]   : Commit successful
+Frame 877: Time = 3.726 ms, FPS = 268.38
+[ATOMIC]   : Commit successful
+Frame 878: Time = 4.296 ms, FPS = 232.77
+[ATOMIC]   : Commit successful
+Frame 879: Time = 4.140 ms, FPS = 241.55
+[ATOMIC]   : Commit successful
+Frame 880: Time = 4.399 ms, FPS = 227.32
+[ATOMIC]   : Commit successful
+Frame 881: Time = 3.723 ms, FPS = 268.60
+[ATOMIC]   : Commit successful
+Frame 882: Time = 3.318 ms, FPS = 301.39
+[ATOMIC]   : Commit successful
+Frame 883: Time = 3.268 ms, FPS = 306.00
+[ATOMIC]   : Commit successful
+Frame 884: Time = 3.274 ms, FPS = 305.44
+[ATOMIC]   : Commit successful
+Frame 885: Time = 4.083 ms, FPS = 244.92
+[ATOMIC]   : Commit successful
+Frame 886: Time = 3.667 ms, FPS = 272.70
+[ATOMIC]   : Commit successful
+Frame 887: Time = 4.024 ms, FPS = 248.51
+[ATOMIC]   : Commit successful
+Frame 888: Time = 3.995 ms, FPS = 250.31
+[ATOMIC]   : Commit successful
+Frame 889: Time = 4.046 ms, FPS = 247.16
+[ATOMIC]   : Commit successful
+Frame 890: Time = 3.864 ms, FPS = 258.80
+[ATOMIC]   : Commit successful
+Frame 891: Time = 3.869 ms, FPS = 258.46
+[ATOMIC]   : Commit successful
+Frame 892: Time = 3.723 ms, FPS = 268.60
+[ATOMIC]   : Commit successful
+Frame 893: Time = 3.747 ms, FPS = 266.88
+[ATOMIC]   : Commit successful
+Frame 894: Time = 3.502 ms, FPS = 285.55
+[ATOMIC]   : Commit successful
+Frame 895: Time = 4.231 ms, FPS = 236.35
+[ATOMIC]   : Commit successful
+Frame 896: Time = 3.707 ms, FPS = 269.76
+[ATOMIC]   : Commit successful
+Frame 897: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 898: Time = 3.701 ms, FPS = 270.20
+[ATOMIC]   : Commit successful
+Frame 899: Time = 3.825 ms, FPS = 261.44
+[ATOMIC]   : Commit successful
+Frame 900: Time = 3.271 ms, FPS = 305.72
+[ATOMIC]   : Commit successful
+Frame 901: Time = 3.732 ms, FPS = 267.95
+[ATOMIC]   : Commit successful
+Frame 902: Time = 3.721 ms, FPS = 268.74
+[ATOMIC]   : Commit successful
+Frame 903: Time = 3.740 ms, FPS = 267.38
+[ATOMIC]   : Commit successful
+Frame 904: Time = 3.712 ms, FPS = 269.40
+[ATOMIC]   : Commit successful
+Frame 905: Time = 3.528 ms, FPS = 283.45
+[ATOMIC]   : Commit successful
+Frame 906: Time = 3.455 ms, FPS = 289.44
+[ATOMIC]   : Commit successful
+Frame 907: Time = 3.352 ms, FPS = 298.33
+[ATOMIC]   : Commit successful
+Frame 908: Time = 3.719 ms, FPS = 268.89
+[ATOMIC]   : Commit successful
+Frame 909: Time = 3.897 ms, FPS = 256.61
+[ATOMIC]   : Commit successful
+Frame 910: Time = 3.921 ms, FPS = 255.04
+[ATOMIC]   : Commit successful
+Frame 911: Time = 3.730 ms, FPS = 268.10
+[ATOMIC]   : Commit successful
+Frame 912: Time = 3.788 ms, FPS = 263.99
+[ATOMIC]   : Commit successful
+Frame 913: Time = 3.765 ms, FPS = 265.60
+[ATOMIC]   : Commit successful
+Frame 914: Time = 3.998 ms, FPS = 250.13
+[ATOMIC]   : Commit successful
+Frame 915: Time = 3.960 ms, FPS = 252.53
+[ATOMIC]   : Commit successful
+Frame 916: Time = 3.970 ms, FPS = 251.89
+[ATOMIC]   : Commit successful
+Frame 917: Time = 3.898 ms, FPS = 256.54
+[ATOMIC]   : Commit successful
+Frame 918: Time = 3.822 ms, FPS = 261.64
+[ATOMIC]   : Commit successful
+Frame 919: Time = 3.908 ms, FPS = 255.89
+[ATOMIC]   : Commit successful
+Frame 920: Time = 3.742 ms, FPS = 267.24
+[ATOMIC]   : Commit successful
+Frame 921: Time = 3.873 ms, FPS = 258.20
+[ATOMIC]   : Commit successful
+Frame 922: Time = 3.949 ms, FPS = 253.23
+[ATOMIC]   : Commit successful
+Frame 923: Time = 3.898 ms, FPS = 256.54
+[ATOMIC]   : Commit successful
+Frame 924: Time = 3.921 ms, FPS = 255.04
+[ATOMIC]   : Commit successful
+Frame 925: Time = 3.778 ms, FPS = 264.69
+[ATOMIC]   : Commit successful
+Frame 926: Time = 3.879 ms, FPS = 257.80
+[ATOMIC]   : Commit successful
+Frame 927: Time = 3.835 ms, FPS = 260.76
+[ATOMIC]   : Commit successful
+Frame 928: Time = 3.944 ms, FPS = 253.55
+[ATOMIC]   : Commit successful
+Frame 929: Time = 3.773 ms, FPS = 265.04
+[ATOMIC]   : Commit successful
+Frame 930: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 931: Time = 3.776 ms, FPS = 264.83
+[ATOMIC]   : Commit successful
+Frame 932: Time = 3.790 ms, FPS = 263.85
+[ATOMIC]   : Commit successful
+Frame 933: Time = 3.940 ms, FPS = 253.81
+[ATOMIC]   : Commit successful
+Frame 934: Time = 3.783 ms, FPS = 264.34
+[ATOMIC]   : Commit successful
+Frame 935: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 936: Time = 3.759 ms, FPS = 266.03
+[ATOMIC]   : Commit successful
+Frame 937: Time = 3.771 ms, FPS = 265.18
+[ATOMIC]   : Commit successful
+Frame 938: Time = 3.907 ms, FPS = 255.95
+[ATOMIC]   : Commit successful
+Frame 939: Time = 3.859 ms, FPS = 259.13
+[ATOMIC]   : Commit successful
+Frame 940: Time = 3.834 ms, FPS = 260.82
+[ATOMIC]   : Commit successful
+Frame 941: Time = 3.745 ms, FPS = 267.02
+[ATOMIC]   : Commit successful
+Frame 942: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 943: Time = 3.794 ms, FPS = 263.57
+[ATOMIC]   : Commit successful
+Frame 944: Time = 4.049 ms, FPS = 246.97
+[ATOMIC]   : Commit successful
+Frame 945: Time = 3.942 ms, FPS = 253.68
+[ATOMIC]   : Commit successful
+Frame 946: Time = 3.879 ms, FPS = 257.80
+[ATOMIC]   : Commit successful
+Frame 947: Time = 3.945 ms, FPS = 253.49
+[ATOMIC]   : Commit successful
+Frame 948: Time = 4.048 ms, FPS = 247.04
+[ATOMIC]   : Commit successful
+Frame 949: Time = 3.881 ms, FPS = 257.67
+[ATOMIC]   : Commit successful
+Frame 950: Time = 3.858 ms, FPS = 259.20
+[ATOMIC]   : Commit successful
+Frame 951: Time = 3.980 ms, FPS = 251.26
+[ATOMIC]   : Commit successful
+Frame 952: Time = 3.836 ms, FPS = 260.69
+[ATOMIC]   : Commit successful
+Frame 953: Time = 3.864 ms, FPS = 258.80
+[ATOMIC]   : Commit successful
+Frame 954: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 955: Time = 3.872 ms, FPS = 258.26
+[ATOMIC]   : Commit successful
+Frame 956: Time = 3.935 ms, FPS = 254.13
+[ATOMIC]   : Commit successful
+Frame 957: Time = 3.900 ms, FPS = 256.41
+[ATOMIC]   : Commit successful
+Frame 958: Time = 3.861 ms, FPS = 259.00
+[ATOMIC]   : Commit successful
+Frame 959: Time = 3.921 ms, FPS = 255.04
+[ATOMIC]   : Commit successful
+Frame 960: Time = 3.973 ms, FPS = 251.70
+[ATOMIC]   : Commit successful
+Frame 961: Time = 3.922 ms, FPS = 254.97
+[ATOMIC]   : Commit successful
+Frame 962: Time = 3.838 ms, FPS = 260.55
+[ATOMIC]   : Commit successful
+Frame 963: Time = 3.979 ms, FPS = 251.32
+[ATOMIC]   : Commit successful
+Frame 964: Time = 3.927 ms, FPS = 254.65
+[ATOMIC]   : Commit successful
+Frame 965: Time = 3.938 ms, FPS = 253.94
+[ATOMIC]   : Commit successful
+Frame 966: Time = 4.317 ms, FPS = 231.64
+[ATOMIC]   : Commit successful
+Frame 967: Time = 3.884 ms, FPS = 257.47
+[ATOMIC]   : Commit successful
+Frame 968: Time = 3.806 ms, FPS = 262.74
+[ATOMIC]   : Commit successful
+Frame 969: Time = 3.888 ms, FPS = 257.20
+[ATOMIC]   : Commit successful
+Frame 970: Time = 4.288 ms, FPS = 233.21
+[ATOMIC]   : Commit successful
+Frame 971: Time = 3.221 ms, FPS = 310.46
+[ATOMIC]   : Commit successful
+Frame 972: Time = 3.300 ms, FPS = 303.03
+[ATOMIC]   : Commit successful
+Frame 973: Time = 3.246 ms, FPS = 308.07
+[ATOMIC]   : Commit successful
+Frame 974: Time = 3.198 ms, FPS = 312.70
+[ATOMIC]   : Commit successful
+Frame 975: Time = 3.252 ms, FPS = 307.50
+[ATOMIC]   : Commit successful
+Frame 976: Time = 3.267 ms, FPS = 306.09
+[ATOMIC]   : Commit successful
+Frame 977: Time = 3.288 ms, FPS = 304.14
+[ATOMIC]   : Commit successful
+Frame 978: Time = 3.788 ms, FPS = 263.99
+[ATOMIC]   : Commit successful
+Frame 979: Time = 4.066 ms, FPS = 245.94
+[ATOMIC]   : Commit successful
+Frame 980: Time = 3.977 ms, FPS = 251.45
+[ATOMIC]   : Commit successful
+Frame 981: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 982: Time = 3.984 ms, FPS = 251.00
+[ATOMIC]   : Commit successful
+Frame 983: Time = 3.919 ms, FPS = 255.17
+[ATOMIC]   : Commit successful
+Frame 984: Time = 3.885 ms, FPS = 257.40
+[ATOMIC]   : Commit successful
+Frame 985: Time = 3.870 ms, FPS = 258.40
+[ATOMIC]   : Commit successful
+Frame 986: Time = 3.948 ms, FPS = 253.29
+[ATOMIC]   : Commit successful
+Frame 987: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 988: Time = 3.955 ms, FPS = 252.84
+[ATOMIC]   : Commit successful
+Frame 989: Time = 3.912 ms, FPS = 255.62
+[ATOMIC]   : Commit successful
+Frame 990: Time = 3.880 ms, FPS = 257.73
+[ATOMIC]   : Commit successful
+Frame 991: Time = 3.849 ms, FPS = 259.81
+[ATOMIC]   : Commit successful
+Frame 992: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 993: Time = 3.949 ms, FPS = 253.23
+[ATOMIC]   : Commit successful
+Frame 994: Time = 3.967 ms, FPS = 252.08
+[ATOMIC]   : Commit successful
+Frame 995: Time = 3.933 ms, FPS = 254.26
+[ATOMIC]   : Commit successful
+Frame 996: Time = 3.984 ms, FPS = 251.00
+[ATOMIC]   : Commit successful
+Frame 997: Time = 3.845 ms, FPS = 260.08
+[ATOMIC]   : Commit successful
+Frame 998: Time = 3.844 ms, FPS = 260.15
+[ATOMIC]   : Commit successful
+Frame 999: Time = 3.401 ms, FPS = 294.03
+[ATOMIC]   : Commit successful
+Frame 1000: Time = 3.247 ms, FPS = 307.98
+Total time for rendering 1000 frames: 3.90 seconds
+Average FPS: 256.28

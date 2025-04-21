@@ -16,7 +16,7 @@ This project demonstrates rendering a rotating textured cube using **DRM/KMS** w
 
 ## ⚙️ Build Instructions
 
-1. **Build the application:**
+**Build the application:**
    ./build.sh
 
 Switch to a TTY session (e.g., TTY3):
@@ -31,8 +31,6 @@ Run the demo:
 
 ./cube_demo >> render_report.txt
 
-2. **Performance Notes & Optimization Needs:**
+**Performance Notes**
 
-The application currently runs at ~40 FPS under optimal conditions.
-
-After 250+ frames, the performance drops to 1–5 FPS.
+The application currently runs at ~250+ FPS under optimal conditions and renderd in loop for 1000 frames.

@@ -7,6 +7,13 @@
 
 using namespace glm;
 
+static GLuint fbo, fbo_tex, depth_rb;
+static GLuint vbo;
+static GLuint tex;
+static GLuint program;
+static GLint mvp_loc;
+
+
 // Shader sources
 const char* vertex_shader_source = R"(
 attribute vec3 position;
@@ -89,10 +96,10 @@ GLuint compile_shader(GLenum type, const char* src) {
     return shader;
 }
 
-GLuint create_program() {
+void create_program() {
+    program = glCreateProgram();
     GLuint vs = compile_shader(GL_VERTEX_SHADER, vertex_shader_source);
     GLuint fs = compile_shader(GL_FRAGMENT_SHADER, fragment_shader_source);
-    GLuint program = glCreateProgram();
     glAttachShader(program, vs);
     glAttachShader(program, fs);
     glLinkProgram(program);
@@ -103,26 +110,28 @@ GLuint create_program() {
         char infoLog[512];
         glGetProgramInfoLog(program, 512, NULL, infoLog);
         printf("Program linking failed: %s\n", infoLog);
+        program = 0; // Mark as invalid
     }
-    return program;
 }
 
-GLuint load_texture(const char* path) {
+void load_texture(const char* path) {
     int w, h, n;
     unsigned char* data = stbi_load(path, &w, &h, &n, 4);
-    if (!data) {
-        printf("Failed to load texture %s\n", path);
-        return 0;
-    }
-
-    GLuint tex;
+    
     glGenTextures(1, &tex);
     glBindTexture(GL_TEXTURE_2D, tex);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+    
+    if (data) {
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+        stbi_image_free(data);
+    } else {
+        printf("Failed to load texture %s\n", path);
+        unsigned char pixels[] = {255,0,255,255, 0,255,0,255, 0,0,255,255, 255,255,0,255};
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 2, 2, 0, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
+    }
+    
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    stbi_image_free(data);
-    return tex;
 }
 
 int EGL_init(int width, int height) {
@@ -182,14 +191,9 @@ int EGL_init(int width, int height) {
     return 0;
 }
 
-int render_the_cube(int width, int height, uint8_t* dumb_buffer) {
-    if (EGL_init(width, height) != 0) {
-        printf("EGL init failed\n");
-        return -1;
-    }
 
-    // Create framebuffer with depth buffer
-    GLuint fbo, fbo_tex, depth_rb;
+int setup_textures_framebuffers(int width, int height) {
+    // Create framebuffer with depth buffer  
     glGenTextures(1, &fbo_tex);
     glBindTexture(GL_TEXTURE_2D, fbo_tex);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, NULL);
@@ -208,53 +212,48 @@ int render_the_cube(int width, int height, uint8_t* dumb_buffer) {
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depth_rb);
 
     if (glCheckFramebufferStatus(GL_FRAMEBUFFER) != GL_FRAMEBUFFER_COMPLETE) {
-        printf("Framebuffer not complete\n");
+        printf("Framebuffer not complete (status: 0x%x)\n", glCheckFramebufferStatus(GL_FRAMEBUFFER));
         return -1;
     }
 
-    // Set up shader program
-    GLuint program = create_program();
-    GLuint tex = load_texture("container.jpg");
-    if (!tex) {
-        // Create a default texture if loading fails
-        unsigned char pixels[] = {255,0,255,255, 0,255,0,255, 0,0,255,255, 255,255,0,255};
-        glGenTextures(1, &tex);
-        glBindTexture(GL_TEXTURE_2D, tex);
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 2, 2, 0, GL_RGBA, GL_UNSIGNED_BYTE, pixels);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-    }
-
-    glUseProgram(program);
+    // Set up shader program and get uniform locations
+    create_program();
+    load_texture("container.jpg");
 
     // Set up vertex buffers
-    GLuint vbo;
     glGenBuffers(1, &vbo);
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     glBufferData(GL_ARRAY_BUFFER, sizeof(cube_vertices), cube_vertices, GL_STATIC_DRAW);
 
+    glUseProgram(program);
     GLuint pos_loc = glGetAttribLocation(program, "position");
     GLuint tex_loc = glGetAttribLocation(program, "texCoord");
-    GLuint mvp_loc = glGetUniformLocation(program, "mvp");
+    mvp_loc = glGetUniformLocation(program, "mvp");
 
     glEnableVertexAttribArray(pos_loc);
     glVertexAttribPointer(pos_loc, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(tex_loc);
     glVertexAttribPointer(tex_loc, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
 
-    // Set viewport and clear with both color and depth buffers
+    // Set viewport
     glViewport(0, 0, width, height);
-    glClearColor(0.1f, 0.1f, 0.3f, 1.0f);
+    return 0;
+}
+
+int render_the_cube(int width, int height, uint8_t* dumb_buffer) {
+    // Clear and enable depth test
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
-    glDepthFunc(GL_LESS);  // Set depth function
+    glDepthFunc(GL_LESS);
 
     // Calculate transformation matrices
-    float time = (float)clock() / CLOCKS_PER_SEC;
-    float angle = time * radians(50.0f);
+    float time = (float)clock() / CLOCKS_PER_SEC * 4; //time * 4 bcz to move cube faster
+    float angle = time * radians(75.0f);
 
     mat4 model = rotate(mat4(1.0f), angle, vec3(0.5f, 1.0f, 0.0f));
     mat4 view = lookAt(vec3(2.0f, 2.0f, 2.0f), vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f));
-    mat4 proj = perspective(radians(60.0f), (float)width/height, 0.1f, 100.0f);
+    mat4 proj = perspective(radians(45.0f), (float)width/height, 0.1f, 100.0f);
     mat4 mvp = proj * view * model;
 
     // Draw the cube
@@ -265,13 +264,17 @@ int render_the_cube(int width, int height, uint8_t* dumb_buffer) {
     // Read pixels to dumb buffer
     glReadPixels(0, 0, width, height, GL_RGBA, GL_UNSIGNED_BYTE, dumb_buffer);
 
-    // Clean up
+    return 0;
+}
+
+int cleanup_gl_setup() {
     glDeleteBuffers(1, &vbo);
     glDeleteTextures(1, &tex);
     glDeleteProgram(program);
     glDeleteTextures(1, &fbo_tex);
     glDeleteRenderbuffers(1, &depth_rb);
     glDeleteFramebuffers(1, &fbo);
+    
 
     return 0;
 }

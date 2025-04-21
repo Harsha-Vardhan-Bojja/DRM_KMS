@@ -24,6 +24,8 @@ extern "C" {
 
 int EGL_init(int width, int height);
 int render_the_cube(int width, int height, uint8_t* dumb_buffer);
+int setup_textures_framebuffers(int width, int height);
+int cleanup_gl_setup();
 
 #ifdef __cplusplus
 }
